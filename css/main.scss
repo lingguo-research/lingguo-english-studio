@@ -2371,7 +2371,7 @@ a {
 
 .page__content .service-card {
   display: grid;
-  grid-template-columns: 45% minmax(0, 1fr);
+  grid-template-columns: 38% minmax(0, 1fr);
   align-items: center;
   gap: 30px;
 
@@ -2382,9 +2382,7 @@ a {
   background: #ffffff;
   border: 1px solid #e9e9ed;
   border-radius: 16px;
-
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.035);
-
   box-sizing: border-box;
 }
 
