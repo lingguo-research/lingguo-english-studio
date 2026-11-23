@@ -28,6 +28,8 @@ menu_settings:
       url: '/scholarships/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'Services'
+      url: '/services/'  
     - title: 'CV'
       url: '/cv/'
 
