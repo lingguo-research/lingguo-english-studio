@@ -19,7 +19,8 @@ We focus on practical, reliable, and easy-to-use solutions.
 ## Our Services
 
 ### 1. Online Booking Systems
-![Online Booking Systems]({{ '/assets/images/services/1.png' | relative_url }})
+
+![Online Booking Systems]({{ '/images/services/1.png' | relative_url }})
 
 Customized digital booking solutions that help businesses manage appointments, reservations, and customer requests.
 
@@ -29,7 +30,8 @@ Customized digital booking solutions that help businesses manage appointments, r
 - Scheduling tools
 
 ### 2. Data and Reporting Solutions
-![Data and Reporting Solutions]({{ '/assets/images/services/2.png' | relative_url }})
+
+![Data and Reporting Solutions]({{ '/images/services/2.png' | relative_url }})
 
 Digital tools that simplify how businesses collect and manage customer information.
 
@@ -39,7 +41,8 @@ Digital tools that simplify how businesses collect and manage customer informati
 - Data organization and reporting
 
 ### 3. Business Process Automation
-![Business Process Automation]({{ '/assets/images/services/3.png' | relative_url }})
+
+![Business Process Automation]({{ '/images/services/3.png' | relative_url }})
 
 Reduce repetitive administrative tasks and improve operational efficiency.
 
@@ -49,7 +52,8 @@ Reduce repetitive administrative tasks and improve operational efficiency.
 - Integration between business tools
 
 ### 4. AI-Enabled Business Solutions
-![AI-Enabled Business Solutions]({{ '/assets/images/services/4.png' | relative_url }})
+
+![AI-Enabled Business Solutions]({{ '/images/services/4.png' | relative_url }})
 
 Practical AI features designed to solve specific business problems.
 
@@ -59,7 +63,8 @@ Practical AI features designed to solve specific business problems.
 - AI-powered internal assistants
 
 ### 5. Custom Software Development
-![Custom Software Development]({{ '/assets/images/services/5.png' | relative_url }})
+
+![Custom Software Development]({{ '/images/services/5.png' | relative_url }})
 
 Lightweight software solutions designed around your business processes.
 
