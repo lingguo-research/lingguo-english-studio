@@ -19,8 +19,6 @@ We focus on practical, reliable, and easy-to-use solutions.
 
 ## Our Services
 
-## Our Services
-
 <!-- Service 1 -->
 <div class="service-card">
   <div class="service-card__image">
