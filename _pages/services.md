@@ -127,25 +127,25 @@ We focus on practical, reliable, and easy-to-use solutions.
 
 ## Why Work With Us?
 
-**Technical Expertise**
+**15+ Years of Software Industry Experience**
 
-Software engineering research background and experience in software measurement, estimation, and system development.
+Our background spans software development, consulting, and project management. We understand the full software lifecycle and know how to turn business requirements into practical, working solutions.
 
-**Project Management**
+**Cross-Industry Knowledge**
 
-Structured requirements analysis, project planning, scope management, and delivery.
+We bring experience working with different business domains and understand that every industry has its own workflows, operational challenges, and technology needs. We focus on solutions that fit the way your business actually works.
 
-**Local Communication**
+**Technical Expertise & Practical Solutions**
 
-A direct Montreal-based point of contact, with communication in English or French.
+With a PhD background in Software Engineering and hands-on experience in software projects, we combine technical knowledge with practical problem-solving to deliver reliable, maintainable, and cost-effective solutions.
 
-**Clear Project Scope**
+**Professional Network & Flexible Resources**
 
-Defined requirements, deliverables, timelines, and budgets before development begins.
+We can connect with relevant technical and professional resources when a project requires additional expertise, allowing us to adapt the project team and capabilities to your specific needs.
 
-**End-to-End Delivery**
+**End-to-End Project Management**
 
-From initial discussion to implementation, testing, delivery, and acceptance.
+From requirements analysis and solution design to development, testing, and delivery, we provide structured project management, clear communication, defined deliverables, and a direct point of contact throughout the process.
 
 ## Who We Work With
 
