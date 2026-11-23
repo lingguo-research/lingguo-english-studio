@@ -19,14 +19,16 @@ We focus on practical, reliable, and easy-to-use solutions.
 
 ## Our Services
 
-### 1. Online Booking Systems
+## Our Services
 
-<div class="service-row">
-  <div class="service-row__image">
-    <img src="{{ '/services/1.png' | relative_url }}"
+<!-- Service 1 -->
+<div class="service-card">
+  <div class="service-card__image">
+    <img src="{{ '/assets/images/services/1.png' | relative_url }}"
          alt="Online Booking Systems">
   </div>
-  <div class="service-row__content">
+  <div class="service-card__content">
+    <h3>1. Online Booking Systems</h3>
     <p>
       Customized digital booking solutions that help businesses manage
       appointments, reservations, and customer requests.
@@ -40,17 +42,17 @@ We focus on practical, reliable, and easy-to-use solutions.
   </div>
 </div>
 
-### 2. Data and Reporting Solutions
-
-<div class="service-row">
-  <div class="service-row__image">
-    <img src="{{ '/services/2.png' | relative_url }}"
+<!-- Service 2 -->
+<div class="service-card">
+  <div class="service-card__image">
+    <img src="{{ '/assets/images/services/2.png' | relative_url }}"
          alt="Data and Reporting Solutions">
   </div>
-  <div class="service-row__content">
+  <div class="service-card__content">
+    <h3>2. Data and Reporting Solutions</h3>
     <p>
-      Digital tools that simplify how businesses collect and manage
-      customer information.
+      Digital tools that simplify how businesses collect, organize,
+      manage, and analyze customer and operational information.
     </p>
     <ul>
       <li>Online intake forms</li>
@@ -61,17 +63,17 @@ We focus on practical, reliable, and easy-to-use solutions.
   </div>
 </div>
 
-### 3. Business Process Automation
-
-<div class="service-row">
-  <div class="service-row__image">
-    <img src="{{ '/services/3.png' | relative_url }}"
+<!-- Service 3 -->
+<div class="service-card">
+  <div class="service-card__image">
+    <img src="{{ '/assets/images/services/3.png' | relative_url }}"
          alt="Business Process Automation">
   </div>
-  <div class="service-row__content">
+  <div class="service-card__content">
+    <h3>3. Business Process Automation</h3>
     <p>
       Reduce repetitive administrative tasks and improve
-      operational efficiency.
+      operational efficiency through practical automation solutions.
     </p>
     <ul>
       <li>Email and notification automation</li>
@@ -82,17 +84,17 @@ We focus on practical, reliable, and easy-to-use solutions.
   </div>
 </div>
 
-### 4. AI-Enabled Business Solutions
-
-<div class="service-row">
-  <div class="service-row__image">
-    <img src="{{ '/services/4.png' | relative_url }}"
+<!-- Service 4 -->
+<div class="service-card">
+  <div class="service-card__image">
+    <img src="{{ '/assets/images/services/4.png' | relative_url }}"
          alt="AI-Enabled Business Solutions">
   </div>
-  <div class="service-row__content">
+  <div class="service-card__content">
+    <h3>4. AI-Enabled Business Solutions</h3>
     <p>
-      Practical AI features designed to solve specific
-      business problems.
+      Practical AI features designed to solve specific business
+      problems and improve information processing.
     </p>
     <ul>
       <li>AI-assisted information processing</li>
@@ -103,23 +105,23 @@ We focus on practical, reliable, and easy-to-use solutions.
   </div>
 </div>
 
-### 5. Custom Software Development
-
-<div class="service-row">
-  <div class="service-row__image">
-    <img src="{{ '/services/5.png' | relative_url }}"
+<!-- Service 5 -->
+<div class="service-card">
+  <div class="service-card__image">
+    <img src="{{ '/assets/images/services/5.png' | relative_url }}"
          alt="Custom Software Development">
   </div>
-  <div class="service-row__content">
+  <div class="service-card__content">
+    <h3>5. Custom Software Development</h3>
     <p>
-      Lightweight software solutions designed around
-      your business processes.
+      Lightweight and customized software solutions designed
+      around your business processes and specific requirements.
     </p>
     <ul>
       <li>Internal management tools</li>
       <li>Business dashboards</li>
       <li>Reporting systems</li>
-      <li>Customized applications</li>
+      <li>Customized business applications</li>
     </ul>
   </div>
 </div>
