@@ -24,7 +24,7 @@ We focus on practical, reliable, and easy-to-use solutions.
 <!-- Service 1 -->
 <div class="service-card">
   <div class="service-card__image">
-    <img src="{{ '/assets/images/services/1.png' | relative_url }}"
+    <img src="{{ '/services/1.png' | relative_url }}"
          alt="Online Booking Systems">
   </div>
   <div class="service-card__content">
@@ -45,7 +45,7 @@ We focus on practical, reliable, and easy-to-use solutions.
 <!-- Service 2 -->
 <div class="service-card">
   <div class="service-card__image">
-    <img src="{{ '/assets/images/services/2.png' | relative_url }}"
+    <img src="{{ '/services/2.png' | relative_url }}"
          alt="Data and Reporting Solutions">
   </div>
   <div class="service-card__content">
@@ -66,7 +66,7 @@ We focus on practical, reliable, and easy-to-use solutions.
 <!-- Service 3 -->
 <div class="service-card">
   <div class="service-card__image">
-    <img src="{{ '/assets/images/services/3.png' | relative_url }}"
+    <img src="{{ '/services/3.png' | relative_url }}"
          alt="Business Process Automation">
   </div>
   <div class="service-card__content">
@@ -87,7 +87,7 @@ We focus on practical, reliable, and easy-to-use solutions.
 <!-- Service 4 -->
 <div class="service-card">
   <div class="service-card__image">
-    <img src="{{ '/assets/images/services/4.png' | relative_url }}"
+    <img src="{{ '/services/4.png' | relative_url }}"
          alt="AI-Enabled Business Solutions">
   </div>
   <div class="service-card__content">
@@ -108,7 +108,7 @@ We focus on practical, reliable, and easy-to-use solutions.
 <!-- Service 5 -->
 <div class="service-card">
   <div class="service-card__image">
-    <img src="{{ '/assets/images/services/5.png' | relative_url }}"
+    <img src="{{ '/services/5.png' | relative_url }}"
          alt="Custom Software Development">
   </div>
   <div class="service-card__content">
