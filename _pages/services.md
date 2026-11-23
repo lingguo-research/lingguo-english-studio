@@ -97,4 +97,4 @@ Have an operational challenge or an idea for a digital solution?
 
 Let's discuss how a practical software solution could help your business.
 
-**Contact:** [Get in Touch](/contact/)
+**Contact:** Get in touch
