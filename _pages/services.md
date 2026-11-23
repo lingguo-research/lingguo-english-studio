@@ -97,4 +97,4 @@ Have an operational challenge or an idea for a digital solution?
 
 Let's discuss how a practical software solution could help your business.
 
-**Contact:** Get in touch
+**Contact:** [Get in touch](mailto:ling.guo.1@ens.etsmtl.ca)
