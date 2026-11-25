@@ -1,0 +1,54 @@
+
+---
+layout: page
+title: Courses
+permalink: /services/
+---
+
+<section class="section services">
+  <div class="container">
+    <h1>English Coaching Programs</h1>
+
+    <p>
+      Practical, personalized English coaching to help you
+      communicate with clarity and confidence.
+    </p>
+
+    <div class="row">
+      {% for service in site.data.services.services %}
+      <div class="col col-6 col-t-12">
+        <div class="service">
+          <div class="service__content">
+            {% if service.icon %}
+            <div class="service__icon">
+              <i class="{{ service.icon }}"></i>
+            </div>
+            {% endif %}
+
+            <h2 class="service__title">{{ service.title }}</h2>
+
+            <p class="service__description">
+              {{ service.description }}
+            </p>
+
+            <a class="service__info__link"
+               href="{{ service.button_link | relative_url }}">
+              {{ service.button_text }}
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="section__head">
+      <h2>Not Sure Which Course Is Right for You?</h2>
+      <p>
+        Get in touch to discuss your English level and learning goals.
+      </p>
+      <a class="button" href="{{ '/contact/' | relative_url }}">
+        Book a Trial Lesson
+      </a>
+    </div>
+  </div>
+</section>
