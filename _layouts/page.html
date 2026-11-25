@@ -1,6 +1,21 @@
 ---
 layout: default
 ---
+{% if page.url contains '/guides/' %}
+  <div class="guide-page-hero">
+    <div class="guide-page-hero__inner">
+      {% if page.eyebrow %}
+        <p class="guide-page-hero__eyebrow">{{ page.eyebrow }}</p>
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}
+        <p class="guide-page-hero__description">{{ page.description }}</p>
+      {% endif %}
+    </div>
+  </div>
+{% else %}
+  <!-- 保留原来的页面标题区域 -->
+{% endif %}
 
 <!-- begin page -->
 <div class="container">
