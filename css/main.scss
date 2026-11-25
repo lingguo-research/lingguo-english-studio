@@ -2523,4 +2523,92 @@ section.hero .hero__academic-avatar img {
 }
 
 
+/* Ling Guo English Studio - Brand Palette */
+
+:root {
+  --primary-color: #E88C75;
+  --link-color: #25345B;
+  --link-color-hover: #E88C75;
+
+  --background-color: #FBF8F3;
+  --background-alt-color: #F3EEE8;
+  --background-alt-color-2: #EEEAF8;
+
+  --text-color: #42465A;
+  --text-alt-color: #77788A;
+  --heading-font-color: #25345B;
+
+  --button-color: #FFFFFF;
+  --button-color-hover: #FFFFFF;
+  --button-background-color: #25345B;
+  --button-background-hover: #E88C75;
+
+  --border-color: #EAE2DA;
+  --border-alt-color: #E5DAD1;
+}
+
+/* Page background */
+body {
+  background: #FBF8F3;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #25345B;
+}
+
+/* Navigation */
+.header .header__inner {
+  border: 1px solid #F0E6DE;
+  box-shadow: 0 12px 35px rgba(37, 52, 91, 0.08);
+}
+
+/* Buttons */
+.button {
+  border-radius: 30px;
+  padding: 12px 24px;
+  font-weight: 600;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+/* Course cards */
+.service {
+  background: #FFFFFF;
+  border: 1px solid #F0E6DE;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(37, 52, 91, 0.06);
+  transition: all .25s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 35px rgba(37, 52, 91, 0.12);
+}
+
+.service:nth-child(4n+1) {
+  background: #F3EEE8;
+}
+
+.service:nth-child(4n+2) {
+  background: #F0EDF8;
+}
+
+.service:nth-child(4n+3) {
+  background: #EAF3EF;
+}
+
+/* Course titles */
+.service__title {
+  color: #25345B;
+}
+
+/* Links */
+a:hover {
+  color: #E88C75;
+}
+
+
 
