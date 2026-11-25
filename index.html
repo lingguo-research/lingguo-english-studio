@@ -5,19 +5,81 @@ image: '/images/bio-photo.png'
 
 {% include hero.html %}
 
+
 <!-- ABOUT -->
-<section class="section" id="about">
+<section class="section about-section" id="about">
   <div class="container">
-    <div class="section__head">
-      <h2 class="section__title">About Me</h2>
-      <p>Hi, I'm Ling Guo. I help English learners improve their pronunciation, speaking fluency, and confidence through structured practice and personalized feedback.</p>
-      <p>My teaching focuses on practical communication, clear pronunciation, and helping learners make steady progress towards their personal and professional goals.</p>
-    </div>
-    <div class="section__head">
-      <a class="button" href="#classes">Explore My Classes</a>
+    <div class="about-layout">
+
+      <!-- Left Column -->
+      <div class="about-left">
+        <span class="about-eyebrow">ABOUT ME</span>
+        <h2 class="about-headline">
+          A software professional turned English educator.
+        </h2>
+        <p class="about-tagline">
+          Helping learners communicate with clarity and confidence.
+        </p>
+      </div>
+
+      <!-- Right Column -->
+      <div class="about-right">
+
+        <blockquote class="about-quote">
+          “The best moment in a class is when a student stops translating
+          and simply speaks.”
+        </blockquote>
+
+        <div class="about-text">
+          <p>
+            My professional journey began in 2013 as a Quality Assurance
+            Engineer at a Chinese software company. In 2016, I moved into
+            software consulting, focusing on software process improvement.
+          </p>
+
+          <p>
+            As part of my consulting work, I also supported international
+            assessment projects, including interpreting for English-speaking
+            Lead Appraisers. Over eight years in the software industry,
+            I developed strong experience in professional communication
+            and cross-cultural collaboration.
+          </p>
+
+          <p>
+            In 2024, I began my PhD in Software Engineering in Montreal,
+            Canada. Alongside my academic studies, I teach English part-time,
+            helping learners improve pronunciation, speaking fluency,
+            and confidence in real-life communication.
+          </p>
+        </div>
+
+        <a class="about-story-link"
+           href="{{ '/posts/my-journey/' | relative_url }}">
+          Read my full story →
+        </a>
+
+        <div class="about-facts">
+          <div class="about-fact">
+            <span>CAREER STARTED</span>
+            <strong>2013</strong>
+          </div>
+
+          <div class="about-fact">
+            <span>INDUSTRY EXPERIENCE</span>
+            <strong>8 Years</strong>
+          </div>
+
+          <div class="about-fact">
+            <span>BASED IN</span>
+            <strong>Montreal, Canada</strong>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 </section>
+
 
 <!-- CLASSES -->
 <div id="classes">
