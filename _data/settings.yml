@@ -12,8 +12,6 @@ color_scheme: auto
 # Navigation Settings
 menu_settings:
   menu_items:
-    - title: 'Home'
-      url: '/'
     - title: 'Courses'
       url: '/services/'
     - title: 'About'
