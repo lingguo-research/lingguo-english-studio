@@ -1,55 +1,50 @@
+
 {% if site.data.services.services_section_enable == true %}
-<!-- begin services -->
 <section class="section services" id="classes">
   <div class="container">
-    <div class="section__inner">
-      <div class="row">
 
-        <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
-
-          <div class="section__head">
-            {% if site.data.services.services_title %}
-            <h2 class="section__title">{{ site.data.services.services_title }}</h2>
-            {% endif %}
-          </div>
-
-          <div class="row">
-            {% for service in site.data.services.services limit: 4 %}
-            <div class="services__item col col-6 col-t-12">
-              <div class="service">
-                <div class="service__content">
-                  {% if service.icon %}
-                  <div class="service__head">
-                    <div class="service__icon">
-                      <i class="{{ service.icon }}"></i>
-                    </div>
-                  </div>
-                  {% endif %}
-                  {% if service.title %}
-                  <h2 class="service__title">{{ service.title }}</h2>
-                  {% endif %}
-                  {% if service.description %}
-                  <p class="service__description">{{ service.description }}</p>
-                  {% endif %}
-                  <div class="service__info">
-                    {% if service.price %}
-                    <div class="service__info__price">{{ service.price }}</div>
-                    {% endif %}
-                    {% if service.button_text %}
-                    <a href="{{ service.button_link }}" rel="noopener" class="service__info__link">{{ service.button_text }}</a>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-
-        </div>
-
-      </div>
+    <div class="section__head">
+      <h2 class="section__title">{{ site.data.services.services_title }}</h2>
+      <p>{{ site.data.services.services_description }}</p>
     </div>
+
+    {% for theme in site.data.services.themes %}
+    <div class="course-theme course-theme--{{ theme.slug }}">
+
+      <div class="course-theme__header">
+        <h3>{{ theme.title }}</h3>
+
+        {% if theme.subtitle %}
+        <p class="course-theme__subtitle">{{ theme.subtitle }}</p>
+        {% endif %}
+
+        <p>{{ theme.description }}</p>
+      </div>
+
+      <div class="course-grid">
+        {% for course in theme.courses %}
+        <article class="course-card">
+          <h4>{{ course.title }}</h4>
+          <p>{{ course.description }}</p>
+
+          <div class="course-card__actions">
+            <a href="{{ '/#contact' | relative_url }}"
+               class="course-button course-button--primary">
+              Book a Class
+            </a>
+
+            <a href="{{ course.guide_link | relative_url }}"
+               class="course-button course-button--secondary">
+              Read Guide
+            </a>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+
+    </div>
+    {% endfor %}
+
   </div>
 </section>
-<!-- end services -->
 {% endif %}
