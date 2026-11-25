@@ -25,9 +25,14 @@ This group provides a simple weekday practice routine to help you keep practisin
 - Stress and intonation.
 - Confidence when reading longer sentences aloud.
 
-### Membership
+## Pricing
 
-**CAD $30 / month**
+| Package | Duration | Price |
+|---|---|---:|
+| Monthly membership | 1 month | CAD $29.9 |
+| six-month package | — | CAD $169 |
+
+All prices are in Canadian dollars (CAD).
 
 ### Who Is This For?
 
