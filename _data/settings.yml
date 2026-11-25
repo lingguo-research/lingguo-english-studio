@@ -49,7 +49,7 @@ author:
 # Hero Settings
 hero:
   enable: true
-  hero_avatar: /images/bio-photo.jpg
+  hero_avatar: /images/bio-photo.png
   hero_title: Ling Guo English Studio
   hero_description: Personalized English coaching for pronunciation, speaking fluency, PTE Core preparation, and professional communication.
 #-------------------------------
