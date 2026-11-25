@@ -3323,5 +3323,35 @@ section.section {
     letter-spacing: -1.5px !important;
   }
 }
+/* ===== Elegant Script-like Hero ===== */
 
+.hero-statement {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(42px, 5vw, 66px) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  line-height: 1.16 !important;
+  letter-spacing: -1.8px !important;
+  color: #25345B !important;
+  margin: 20px 0 25px !important;
+  max-width: 100% !important;
+}
+
+.statement-dont {
+  color: #25345B !important;
+  font-weight: 400 !important;
+}
+
+.statement-natural {
+  color: #E98270 !important;
+  font-style: italic !important;
+}
+
+@media (max-width: 767px) {
+  .hero-statement {
+    font-size: clamp(36px, 9vw, 48px) !important;
+    line-height: 1.18 !important;
+    letter-spacing: -1px !important;
+  }
+}
 
