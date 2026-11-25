@@ -21,10 +21,14 @@ Improve your English for professional communication and everyday workplace situa
 
 We can work with situations you actually encounter at work. You can bring your own communication questions, materials, or scenarios.
 
-### Pricing
+## Pricing
 
-- Trial Lesson: 25 minutes · CAD $10
-- Individual Lesson: 50 minutes · CAD $30
+| Service | Duration | Price |
+|---|---:|---:|
+| Trial lesson | 25 minutes | CAD $10 |
+| Individual lesson | 50 minutes | CAD $30 |
+
+All prices are in Canadian dollars (CAD).
 
 ### Who Is This For?
 
