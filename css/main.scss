@@ -3418,3 +3418,45 @@ section.section {
   color: #25345B !important;
   font-style: italic !important;
 }
+/* ===== Footer Readability Fix ===== */
+
+.footer {
+  background: #25345B !important;
+  color: #FFFFFF !important;
+  padding: 45px 0 !important;
+  text-align: center;
+}
+
+.footer h2,
+.footer h3,
+.footer strong,
+.footer .footer__title {
+  color: #FFFFFF !important;
+}
+
+.footer p,
+.footer span {
+  color: #DCE2F0 !important;
+}
+
+.footer a {
+  color: #FFFFFF !important;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #E98270 !important;
+}
+
+.footer .button,
+.footer a.button {
+  background: #FFFFFF !important;
+  color: #25345B !important;
+  border: 1px solid #FFFFFF !important;
+}
+
+.footer .button:hover,
+.footer a.button:hover {
+  background: #E98270 !important;
+  color: #FFFFFF !important;
+}
