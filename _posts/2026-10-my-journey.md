@@ -2,6 +2,7 @@
 layout: post
 title: "My Journey: From Software Engineering to English Teaching"
 date: 2026-10-01
+permalink: /posts/my-journey/
 description: "My professional journey from software quality assurance and consulting to doctoral research in Montreal and English teaching."
 ---
 
