@@ -12,10 +12,11 @@ color_scheme: auto
 # Navigation Settings
 menu_settings:
   menu_items:
-    - title: 'Courses'
-      url: '/services/'
+
     - title: 'About'
       url: '/about/'
+    - title: 'Classes'
+      url: '/services/'
     - title: 'Blog'
       url: '/blog/'
     - title: 'Contact'
