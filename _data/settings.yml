@@ -28,13 +28,6 @@ cta_button:
   cta_button_text: Book a Trial Lesson
 
 
-# Call to action button
-cta_button:
-  enable: true
-  cta_button_link: '/contact/'
-  cta_button_text: Book a Trial Lesson
-
-
 # Home Cover Image
 home_cover_image: /images/bg.png
 
