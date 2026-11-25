@@ -2610,5 +2610,284 @@ a:hover {
   color: #E88C75;
 }
 
+/* =========================================
+   Ling Guo English Studio - Color & Layout
+   ========================================= */
+
+:root {
+  --primary-color: #E98270;
+  --link-color: #25345B;
+  --link-color-hover: #E98270;
+
+  --background-color: #FFFCF8;
+  --background-alt-color: #F8EEE8;
+  --background-alt-color-2: #EEEAF6;
+
+  --text-color: #45465A;
+  --text-alt-color: #77788A;
+  --heading-font-color: #25345B;
+
+  --button-color: #FFFFFF;
+  --button-color-hover: #FFFFFF;
+  --button-background-color: #25345B;
+  --button-background-hover: #E98270;
+
+  --border-color: #EFE4DC;
+  --border-alt-color: #E7D9D0;
+}
+
+/* Overall background and typography */
+
+body {
+  background: #FFFCF8;
+  color: #45465A;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #25345B;
+}
+
+p {
+  line-height: 1.75;
+}
+
+/* Header */
+
+.header {
+  background: #FFFCF8;
+}
+
+.header .header__inner {
+  background: #FFFFFF;
+  border: 1px solid #F0E6DE;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(37, 52, 91, .07);
+}
+
+.logo__text {
+  color: #25345B !important;
+}
+
+.nav__link {
+  color: #25345B !important;
+  font-weight: 600;
+}
+
+.nav__link:hover,
+.nav__link.active-link {
+  color: #E98270 !important;
+}
+
+/* Hero */
+
+.hero--academic {
+  background: #FBF3EB;
+  border-radius: 0 0 32px 32px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.hero__eyebrow {
+  color: #D87968;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hero__academic-title {
+  color: #25345B;
+}
+
+.hero__academic-subtitle {
+  color: #D87968;
+}
+
+.hero__academic-description {
+  color: #55566A;
+  line-height: 1.8;
+}
+
+.hero__academic-avatar img {
+  border: 7px solid #FFFFFF;
+  box-shadow: 0 16px 40px rgba(37, 52, 91, .12);
+}
+
+/* Buttons */
+
+.button {
+  border-radius: 30px;
+  padding: 13px 26px;
+  font-weight: 600;
+  transition: all .25s ease;
+}
+
+.button--primary,
+.cta-button {
+  background: #25345B !important;
+  border-color: #25345B !important;
+  color: #FFFFFF !important;
+}
+
+.button--primary:hover,
+.cta-button:hover {
+  background: #E98270 !important;
+  border-color: #E98270 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+}
+
+/* Section spacing */
+
+section.section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.section__head {
+  margin-bottom: 35px;
+}
+
+.section__title {
+  color: #25345B;
+}
+
+/* About section */
+
+#about {
+  background: #FFFCF8;
+}
+
+/* Classes section */
+
+#classes {
+  background: #F8EEE8;
+  padding: 35px 0;
+}
+
+#classes .service {
+  min-height: 260px;
+  padding: 28px;
+  background: #FFFFFF;
+  border: 1px solid #F0E2DA;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(37, 52, 91, .06);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+#classes .service:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(37, 52, 91, .12);
+}
+
+#classes .service__title {
+  color: #25345B;
+}
+
+#classes .service__description {
+  color: #66677A;
+}
+
+/* Different accent colors for course cards */
+
+#classes .services__item:nth-child(4n+1) .service {
+  border-top: 5px solid #E98270;
+}
+
+#classes .services__item:nth-child(4n+2) .service {
+  border-top: 5px solid #9B8BC2;
+}
+
+#classes .services__item:nth-child(4n+3) .service {
+  border-top: 5px solid #83B49A;
+}
+
+#classes .services__item:nth-child(4n+4) .service {
+  border-top: 5px solid #D7B96E;
+}
+
+/* Learning Path */
+
+#learning-path {
+  background: #EEEAF6;
+}
+
+#learning-path .service {
+  min-height: 190px;
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 18px;
+  border: 1px solid #E4DDF0;
+  box-shadow: 0 8px 22px rgba(37, 52, 91, .05);
+}
+
+#learning-path h3 {
+  color: #8A75B2;
+  font-size: 30px;
+}
+
+/* Blog */
+
+#blog {
+  background: #EAF3EF;
+}
+
+#blog .service {
+  height: 100%;
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 18px;
+  border: 1px solid #DDEAE1;
+}
+
+/* Contact */
+
+#contact {
+  background: #FBF3EB;
+}
+
+#contact h2,
+#contact h3 {
+  color: #25345B;
+}
+
+#contact img {
+  border: 6px solid #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(37, 52, 91, .10);
+}
+
+/* Footer */
+
+.footer {
+  background: #25345B;
+  color: #FFFFFF;
+}
+
+.footer h2,
+.footer h3,
+.footer a,
+.footer p {
+  color: #FFFFFF;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .hero--academic {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 0 0 22px 22px;
+  }
+
+  section.section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  #classes .service,
+  #learning-path .service {
+    min-height: auto;
+  }
+}
+
 
 
