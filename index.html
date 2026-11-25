@@ -1,3 +1,4 @@
+
 ---
 layout: default
 image: '/images/bio-photo.png'
@@ -5,6 +6,126 @@ image: '/images/bio-photo.png'
 
 {% include hero.html %}
 
-{% include section-services.html %}
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">About Me</h2>
+      <p>Hi, I'm Ling Guo. I help English learners improve their pronunciation, speaking fluency, and confidence through structured practice and personalized feedback.</p>
+      <p>My teaching focuses on practical communication, clear pronunciation, and helping learners make steady progress towards their personal and professional goals.</p>
+    </div>
+    <div class="section__head">
+      <a class="button" href="#classes">Explore My Classes</a>
+    </div>
+  </div>
+</section>
 
-{% include section-blog.html %}
+<!-- CLASSES -->
+<div id="classes">
+  {% include section-services.html %}
+</div>
+
+<!-- LEARNING PATH -->
+<section class="section" id="learning-path">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">Find Your English Level</h2>
+      <p>Choose a learning path that matches your current English level and goals.</p>
+    </div>
+
+    <div class="row">
+      <div class="col col-3 col-t-6">
+        <div class="service service__content">
+          <h3>A1</h3>
+          <p>Beginner</p>
+          <p>Build basic vocabulary, pronunciation, and everyday expressions.</p>
+        </div>
+      </div>
+      <div class="col col-3 col-t-6">
+        <div class="service service__content">
+          <h3>A2</h3>
+          <p>Elementary</p>
+          <p>Develop simple conversations in familiar situations.</p>
+        </div>
+      </div>
+      <div class="col col-3 col-t-6">
+        <div class="service service__content">
+          <h3>B1</h3>
+          <p>Intermediate</p>
+          <p>Improve fluency and express your opinions with confidence.</p>
+        </div>
+      </div>
+      <div class="col col-3 col-t-6">
+        <div class="service service__content">
+          <h3>B2</h3>
+          <p>Upper Intermediate</p>
+          <p>Strengthen communication for work, study, and daily life.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="section" id="blog">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">English Learning Resources</h2>
+      <p>Explore practical tips and learning resources to improve your English.</p>
+    </div>
+
+    <div class="row">
+      <div class="col col-6 col-t-12">
+        <div class="service service__content">
+          <h3>English Pronunciation</h3>
+          <p>American English sounds, word stress, sentence rhythm, and intonation.</p>
+        </div>
+      </div>
+      <div class="col col-6 col-t-12">
+        <div class="service service__content">
+          <h3>Speaking Fluency</h3>
+          <p>Practical speaking exercises and techniques for natural communication.</p>
+        </div>
+      </div>
+      <div class="col col-6 col-t-12">
+        <div class="service service__content">
+          <h3>PTE Core Preparation</h3>
+          <p>Practice strategies and tips for improving your PTE Core performance.</p>
+        </div>
+      </div>
+      <div class="col col-6 col-t-12">
+        <div class="service service__content">
+          <h3>English for Work</h3>
+          <p>Build confidence in interviews and professional communication.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">Let's Start Learning Together</h2>
+      <p>Tell me about your English level and learning goals. Let's find the right learning path for you.</p>
+    </div>
+
+    <div class="row">
+      <div class="col col-6 col-t-12">
+        <h3>WhatsApp</h3>
+        <p>Contact me directly to discuss classes and one-to-one coaching.</p>
+        <a class="button" href="https://wa.me/14384537086">Chat on WhatsApp</a>
+      </div>
+
+      <div class="col col-6 col-t-12">
+        <h3>WeChat</h3>
+        <p>Scan the QR code to connect with me.</p>
+        <img
+          src="{{ '/images/wechat-qr.jpg' | relative_url }}"
+          alt="Ling Guo WeChat QR Code"
+          style="width:220px; max-width:100%; height:auto;">
+      </div>
+    </div>
+  </div>
+</section>
