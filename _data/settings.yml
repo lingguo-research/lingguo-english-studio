@@ -14,16 +14,12 @@ menu_settings:
   menu_items:
     - title: 'Home'
       url: '/'
-    - title: 'About'
-      url: '/about/'
     - title: 'Courses'
       url: '/services/'
-    - title: 'Teaching Method'
-      url: '/teaching/'
+    - title: 'About'
+      url: '/about/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'FAQ'
-      url: '/faq/'
     - title: 'Contact'
       url: '/contact/'
 
