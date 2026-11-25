@@ -1,26 +1,164 @@
-{% if site.data.settings.blog.enable == true %}
-<!-- section-blog -->
-<section class="section section-blog">
+
+<section class="section blog-section" id="blog">
   <div class="container">
 
-    <div class="section__head blog-section__head">
-      <h2 class="section__title">Latest Blog Posts</h2>
-
-      <a href="{{ '/blog/' | relative_url }}" class="blog-section__link">
-        View All Posts →
-      </a>
+    <div class="section__head">
+      <h2 class="section__title">Stories & Insights</h2>
+      <p>Personal stories, practical English tips, and ideas about learning and communication.</p>
     </div>
 
-    <div class="row grid">
-      {% if site.posts.size > 0 %}
-        {% for post in site.posts limit:3 %}
-          {% include article-home.html %}
-        {% endfor %}
-      {% endif %}
-    </div>
+    <div class="blog-grid">
 
+      <article class="blog-card">
+        <div class="blog-card__category">PERSONAL STORY</div>
+        <h3>My Journey: From Software Engineering to English Teaching</h3>
+        <p>
+          From software quality assurance and consulting in China
+          to doctoral research in Montreal and English teaching.
+          Discover the experiences that shaped my journey.
+        </p>
+
+        <details class="blog-article">
+          <summary>Read My Story →</summary>
+
+          <div class="blog-article__content">
+
+            <h3>My Journey: From Software Engineering to English Teaching</h3>
+            <p><em>Different experiences, one common thread: communication.</em></p>
+
+            <p>
+              People sometimes ask me how I became an English teacher.
+              My journey was not a straight line. Before teaching English,
+              I spent years working in the software industry, supporting
+              professional teams, improving business processes, and
+              communicating across languages and cultures.
+            </p>
+
+            <p>
+              Today, I am a PhD student in Software Engineering in Montreal,
+              Canada, and I also teach English part-time. These experiences
+              may seem quite different, but they have shaped the way I
+              approach teaching and learning.
+            </p>
+
+            <h4>2013: My First Step into the Software Industry</h4>
+
+            <p>
+              My professional journey began in 2013 when I joined a Chinese
+              software company as a Quality Assurance Engineer.
+              Working in software quality assurance taught me to pay
+              attention to details, think systematically, identify problems,
+              and understand how different parts of a project work together.
+            </p>
+
+            <h4>2016: Moving into Software Consulting</h4>
+
+            <p>
+              In 2016, I moved into software consulting, focusing on
+              software process improvement. My work involved helping
+              organizations understand their existing processes, identify
+              areas for improvement, and develop more effective ways of working.
+            </p>
+
+            <p>
+              An important part of this experience was supporting
+              international assessment projects. I sometimes worked as
+              an interpreter for English-speaking Lead Appraisers,
+              helping facilitate communication between international
+              experts and Chinese teams.
+            </p>
+
+            <p>
+              This was a particularly valuable experience. I realized
+              that communication is much more than translating words
+              from one language into another. It is about understanding
+              meaning, explaining ideas clearly, asking the right questions,
+              and making sure people from different backgrounds understand
+              each other.
+            </p>
+
+            <p>
+              Over the years, I accumulated approximately eight years
+              of experience in the software industry.
+            </p>
+
+            <h4>2024: A New Chapter in Montreal</h4>
+
+            <p>
+              In 2024, I began a PhD in Software Engineering in Montreal,
+              Canada. Starting a new academic chapter in another country
+              brought new experiences and challenges. It also gave me
+              opportunities to work in a multicultural environment and
+              continue developing my academic and professional
+              communication skills.
+            </p>
+
+            <p>
+              My research focuses on software measurement and estimation.
+              Although my research is technical, communication remains
+              an essential part of academic life: discussing ideas,
+              presenting research, reading and writing academic papers,
+              and collaborating with others.
+            </p>
+
+            <h4>Why I Also Teach English</h4>
+
+            <p>
+              Alongside my PhD studies, I teach English part-time.
+              My interest in English teaching is closely connected
+              to my own professional experience. I have seen how
+              important communication skills are in international
+              workplaces, academic environments, and everyday life.
+            </p>
+
+            <p>
+              I also understand that learning English can be frustrating.
+              You may know many English words but still hesitate when
+              speaking. You may understand grammar but find it difficult
+              to express your thoughts naturally. You may pronounce
+              individual words correctly but struggle with rhythm,
+              connected speech, and longer sentences.
+            </p>
+
+            <p>
+              I want my classes to be practical and supportive.
+              Rather than focusing only on memorizing rules, I encourage
+              learners to practise, listen, imitate, express their ideas,
+              and gradually become more confident.
+            </p>
+
+            <h4>My Teaching Philosophy</h4>
+
+            <p>
+              My professional journey has taught me that knowledge is
+              important, but the ability to communicate that knowledge
+              is equally valuable.
+            </p>
+
+            <p>
+              I do not believe that learning English is about speaking
+              perfectly from the beginning. It is about practising
+              consistently, learning from mistakes, and becoming a
+              little more confident each time you speak.
+            </p>
+
+            <p class="blog-article__closing">
+              English is not just a subject to study. It is a skill to use —
+              to express ideas, connect with people, and open up new opportunities.
+            </p>
+
+            <p>
+              I am still learning, researching, and growing myself.
+              And I look forward to being part of your English learning
+              journey, too.
+            </p>
+
+            <a href="#classes">Explore My Classes →</a>
+
+          </div>
+        </details>
+      </article>
+
+    </div>
   </div>
 </section>
-<!-- section-blog -->
-{% endif %}
-
