@@ -1,34 +1,30 @@
-#-------------------------------
-# Services Settings
-services_title: Services
-services_description: My goal is to help you turn concepts into solutions that are not only visually strong but also effective in the real world.
+
+# English Coaching Courses
+services_title: English Coaching Programs
+services_description: Practical, personalized English coaching to help you communicate with clarity and confidence.
 services_section_enable: true
 
 services:
-  - title: User Experience Design
-    description: From wireframes to flows, every interaction is designed to be clear, purposeful, and engaging across the entire product lifecycle.
-    icon: "fa-solid fa-crop-simple"
-    price: Starts at $2599
-    button_text: Book a Call
-    button_link: "#"
+  - title: English Pronunciation & Speaking
+    description: Improve pronunciation, stress, intonation, and fluency through guided practice and personalized feedback.
+    icon: "fa-solid fa-comments"
+    button_text: Learn More
+    button_link: "/contact/"
 
-  - title: UI & Visual Design
-    description: I design clean, modern, and accessible UI systems that not only look good but also enhance usability your brand’s identity.
-    icon: "fa-solid fa-spiral"
-    price: Starts at $4799
-    button_text: Book a Call
-    button_link: "#"
+  - title: PTE Core Preparation
+    description: Build the skills and strategies needed for PTE Core, with focused speaking practice and performance feedback.
+    icon: "fa-solid fa-graduation-cap"
+    button_text: Learn More
+    button_link: "/contact/"
 
-  - title: Prototyping & Validation
-    description: This helps teams gather feedback early, validate assumptions, and save time and budget down the line.
-    icon: "fa-solid fa-images"
-    price: Starts at $2899
-    button_text: Book a Call
-    button_link: "#"
+  - title: English for Job Interviews
+    description: Practise common interview questions, organize your answers, and communicate your experience with confidence.
+    icon: "fa-solid fa-briefcase"
+    button_text: Learn More
+    button_link: "/contact/"
 
-  - title: Design Systems & Components
-    description: Through workshops, research, and rapid validation, we turn ambiguity into a clear product direction.
-    icon: "fa-solid fa-compass-drafting"
-    price: Starts at $5399
-    button_text: Book a Call
-    button_link: "#"
+  - title: Personalized English Coaching
+    description: One-to-one lessons tailored to your current level, learning goals, and real-life communication needs.
+    icon: "fa-solid fa-user"
+    button_text: Book a Trial Lesson
+    button_link: "/contact/"
