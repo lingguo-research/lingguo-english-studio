@@ -28,13 +28,15 @@ Monday to Friday:
 - Natural flow when speaking longer sentences.
 - Pronunciation clarity and fluency.
 
-### Membership Options
+## Pricing
 
-| Membership | Price |
-|---|---:|
-| 1 Month | CAD $19.90 |
-| 6 Months | CAD $99 |
-| 12 Months | CAD $179 |
+| Package | Duration | Price |
+|---|---|---:|
+| Monthly membership | 1 month | CAD $19.90 |
+| Standard package | — | CAD $99 |
+| Extended package | — | CAD $179 |
+
+All prices are in Canadian dollars (CAD).
 
 ### Who Is This For?
 
