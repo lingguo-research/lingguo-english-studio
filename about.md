@@ -1,44 +1,57 @@
+
 ---
 layout: page
-title: "About"
+title: About
 permalink: /about/
 ---
 
-# About Me
+# About Ling
 
-## Hi, I'm Ling.
+## Helping You Speak English with Clarity and Confidence
 
-Welcome to Ling Guo English Studio.
+Welcome to Ling Guo English Studio!
 
-I help English learners develop clearer pronunciation, stronger speaking skills, and greater confidence in real-life communication.
+I help English learners improve their pronunciation, speaking fluency, and confidence in everyday and professional communication.
 
-My teaching focuses on practical English that learners can use in everyday conversations, language tests, and professional situations.
+My lessons focus on practical English skills that you can apply in real situations — from daily conversations and language tests to job interviews and workplace communication.
 
 ## My Teaching Approach
 
-I believe effective language learning requires more than memorizing vocabulary and grammar. Learners need structured practice, clear feedback, and opportunities to use English in meaningful contexts.
+I believe effective English learning comes from structured practice, personalized feedback, and consistent improvement.
 
-### 1. Clear and Natural Pronunciation
+### Pronunciation That Sounds Natural
 
-Work on individual sounds, word stress, sentence rhythm, and intonation.
+Improve individual sounds, word stress, sentence rhythm, and intonation to make your spoken English clearer and more natural.
 
-### 2. Confident Communication
+### Speaking with Confidence
 
-Develop the ability to express ideas naturally and communicate effectively in everyday and professional situations.
+Learn to organize your thoughts, express ideas clearly, and communicate more comfortably in English.
 
-### 3. Practical, Goal-Oriented Learning
+### Learning with a Clear Goal
 
-Whether you are preparing for PTE Core, getting ready for a job interview, or improving your daily English, lessons are tailored to your goals.
+Every learner has different needs. Lessons are adapted to your current level and goals, whether you are preparing for PTE Core, improving daily communication, or getting ready for a job interview.
 
-## Who I Work With
+## My Courses
 
-- English learners improving pronunciation and speaking fluency.
+- **English Pronunciation & Speaking** – Build clearer pronunciation and speaking fluency.
+- **PTE Core Preparation** – Practise speaking tasks and develop effective test strategies.
+- **English for Job Interviews** – Prepare answers and communicate your experience confidently.
+- **Personalized English Coaching** – Learn at your own pace with lessons tailored to your needs.
+
+## Who Can Learn with Me?
+
+My coaching is suitable for:
+
+- Adults who want to improve their spoken English.
+- English learners who want clearer pronunciation.
 - Candidates preparing for PTE Core.
-- Professionals practising English job interviews.
-- Adults building confidence in communication.
+- Professionals preparing for English job interviews.
+- Learners who prefer personalized one-to-one lessons.
 
-## Let's Work Together
+## Let's Start Your Learning Journey
 
-With focused practice and consistent feedback, you can make meaningful progress.
+You don't need perfect English to start. With the right practice and feedback, you can make steady progress.
+
+I'd be happy to discuss your goals and help you find the right learning plan.
 
 [Book a Trial Lesson](/lingguo-english-studio/contact/)
