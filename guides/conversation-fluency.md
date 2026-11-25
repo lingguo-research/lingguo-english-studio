@@ -31,10 +31,14 @@ You can practise topics that interest you, discuss everyday situations, or focus
 
 The goal is not simply to speak more, but to communicate more naturally and confidently.
 
-### Pricing
+## Pricing
 
-- Trial Lesson: 25 minutes · CAD $10
-- Individual Lesson: 50 minutes · CAD $30
+| Service | Duration | Price |
+|---|---:|---:|
+| Trial lesson | 25 minutes | CAD $10 |
+| Individual lesson | 50 minutes | CAD $30 |
+
+All prices are in Canadian dollars (CAD).
 
 ### Who Is This For?
 
