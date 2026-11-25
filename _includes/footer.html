@@ -1,43 +1,26 @@
-<!-- begin footer -->
-<footer class="footer footer--academic">
-  <div class="container">
 
+<footer class="footer">
+  <div class="container">
     <div class="footer__inner">
 
       <div class="footer__identity">
-        <strong>Ling Guo</strong>
-        <span>École de technologie supérieure (ÉTS), Montréal</span>
+        <strong>Ling Guo English Studio</strong>
+        <span>Speak English Naturally. Communicate with Confidence.</span>
       </div>
 
       <div class="footer__academic-links">
-        <a href="https://scholar.google.com/citations?user=PS_CX0AAAAJ"
-           target="_blank" rel="noopener">
-          Google Scholar
-        </a>
-
-        <a href="https://orcid.org/0009-0009-2175-7102"
-           target="_blank" rel="noopener">
-          ORCID
-        </a>
-
-        <a href="https://www.linkedin.com/in/ling-guo-3bb0ba62/"
-           target="_blank" rel="noopener">
-          LinkedIn
-        </a>
-
-        <a href="mailto:ling.guo.1@ens.etsmtl.ca">
-          Email
-        </a>
-
-        <a href="https://www.zhihu.com/people/guoguo73777" target="_blank" rel="noopener">Zhihu</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/services/' | relative_url }}">Courses</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        <a href="https://wa.me/14384537086"
+           target="_blank" rel="noopener">WhatsApp</a>
       </div>
 
       <div class="footer__copyright">
-        © {{ site.time | date: "%Y" }} Ling Guo
+        © {{ site.time | date: "%Y" }} Ling Guo English Studio
       </div>
 
     </div>
-
   </div>
 </footer>
-<!-- end footer -->
