@@ -50,9 +50,8 @@ author:
 hero:
   enable: true
   hero_avatar: /images/bio-photo.jpg
-  hero_title: Ling Guo
-  hero_description: PhD researcher in Software Engineering at École de technologie supérieure (ÉTS), Montréal. My research focuses on <strong>software measurement, software estimation, COSMIC functional size measurement, and software engineering education</strong>.
-
+  hero_title: Ling Guo English Studio
+  hero_description: Personalized English coaching for pronunciation, speaking fluency, PTE Core preparation, and professional communication.
 #-------------------------------
 # Social Settings
 social:
