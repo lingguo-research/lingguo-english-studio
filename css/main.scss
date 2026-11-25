@@ -2495,3 +2495,32 @@ a {
 }
 
 
+/* Make teacher portrait rectangular */
+section.hero .hero__academic-avatar {
+  width: 100% !important;
+  max-width: 460px !important;
+  margin: 0 auto !important;
+  overflow: visible !important;
+  border-radius: 0 !important;
+}
+
+section.hero .hero__academic-avatar img {
+  display: block !important;
+  width: 100% !important;
+  height: 560px !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  object-position: center 25% !important;
+  border-radius: 20px !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  section.hero .hero__academic-avatar img {
+    height: auto !important;
+    max-height: 520px !important;
+  }
+}
+
+
+
