@@ -3522,3 +3522,61 @@ section.section {
     font-size: 16px !important;
   }
 }
+
+/* ===== Compact Footer - Final Fix ===== */
+
+.footer {
+  margin-top: 24px !important;
+  padding: 24px 0 18px !important;
+  background: #25345B !important;
+  color: #FFFFFF !important;
+}
+
+.footer__inner {
+  margin-bottom: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px !important;
+  text-align: center;
+}
+
+.footer__identity {
+  gap: 3px !important;
+}
+
+.footer__identity strong {
+  color: #FFFFFF !important;
+  font-size: 20px !important;
+}
+
+.footer__identity span {
+  color: #DCE2F0 !important;
+  font-size: 13px !important;
+  opacity: 1 !important;
+}
+
+.footer__academic-links {
+  gap: 8px !important;
+}
+
+.footer__academic-links a {
+  background: #FFFFFF !important;
+  color: #25345B !important;
+  border: 1px solid #FFFFFF !important;
+  padding: 7px 13px !important;
+  font-size: 13px !important;
+}
+
+.footer__academic-links a:hover {
+  background: #E98270 !important;
+  color: #FFFFFF !important;
+}
+
+.footer__copyright {
+  color: #DCE2F0 !important;
+  margin-top: 0 !important;
+  font-size: 12px !important;
+  opacity: .8 !important;
+}
+
