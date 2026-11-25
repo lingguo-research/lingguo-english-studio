@@ -21,11 +21,14 @@ Academic English is not only about knowing academic vocabulary. It is also about
 
 Lessons can be adapted to your study area, academic experience, and communication needs. We can use topics that are relevant to your studies.
 
-### Pricing
+## Pricing
 
-- Trial Lesson: 25 minutes · CAD $10
-- Individual Lesson: 50 minutes · CAD $30
+| Service | Duration | Price |
+|---|---:|---:|
+| Trial lesson | 25 minutes | CAD $10 |
+| Individual lesson | 50 minutes | CAD $30 |
 
+All prices are in Canadian dollars (CAD).
 ### Who Is This For?
 
 - University and college students.
