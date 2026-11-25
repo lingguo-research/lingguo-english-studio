@@ -15,7 +15,7 @@ menu_settings:
     - title: 'Home'
       url: '/'
     - title: 'Courses'
-      url: '/services.html/'
+      url: '/services/'
     - title: 'About'
       url: '/about/'
     - title: 'Blog'
