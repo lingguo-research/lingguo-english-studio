@@ -3293,4 +3293,35 @@ section.section {
   font-style: italic;
 }
 
+/* Hero headline: editorial typography */
+
+.hero-statement {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(54px, 7vw, 94px) !important;
+  font-weight: 400 !important;
+  line-height: 1.03 !important;
+  letter-spacing: -2.5px !important;
+  color: #25345B !important;
+  max-width: 1000px;
+  margin: 25px 0 30px !important;
+}
+
+.statement-pink {
+  color: #E98270 !important;
+  font-style: italic;
+}
+
+.statement-teal {
+  color: #25345B !important;
+  font-style: italic;
+}
+
+@media (max-width: 767px) {
+  .hero-statement {
+    font-size: clamp(43px, 11vw, 64px) !important;
+    line-height: 1.08 !important;
+    letter-spacing: -1.5px !important;
+  }
+}
+
 
