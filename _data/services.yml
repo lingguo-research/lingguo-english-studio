@@ -1,30 +1,50 @@
-
-# English Coaching Courses
-services_title: English Coaching Programs
-services_description: Practical, personalized English coaching to help you communicate with clarity and confidence.
+services_title: Explore Our Classes
+services_description: Choose a learning program that matches your goals. Each course is designed to help you communicate more clearly and confidently.
 services_section_enable: true
 
-services:
-  - title: English Pronunciation & Speaking
-    description: Improve pronunciation, stress, intonation, and fluency through guided practice and personalized feedback.
-    icon: "fa-solid fa-comments"
-    button_text: Learn More
-    button_link: "/contact/"
+themes:
+  - slug: pte
+    title: PTE Core Preparation
+    description: Focused preparation and personalized coaching to help you strengthen your PTE Core performance.
+    courses:
+      - title: PTE Core Weakness Assessment
+        description: Identify your strengths and weaknesses across PTE Core skills and receive practical recommendations for your next steps.
+        guide_link: /guides/pte-weakness-assessment/
+      - title: PTE Core Speaking Coaching
+        description: Develop your speaking skills with focused practice, individual feedback, and targeted improvement strategies.
+        guide_link: /guides/pte-speaking-coaching/
+      - title: PTE Core Writing Coaching
+        description: Improve your writing through structured practice, feedback, and guidance on common writing challenges.
+        guide_link: /guides/pte-writing-coaching/
+      - title: Read Aloud Daily Practice Group
+        description: Practise one selected Read Aloud sentence every weekday and receive voice feedback to improve pronunciation, fluency, and delivery.
+        guide_link: /guides/pte-read-aloud/
 
-  - title: PTE Core Preparation
-    description: Build the skills and strategies needed for PTE Core, with focused speaking practice and performance feedback.
-    icon: "fa-solid fa-graduation-cap"
-    button_text: Learn More
-    button_link: "/contact/"
+  - slug: pronunciation
+    title: English Pronunciation
+    description: Build clearer pronunciation and more natural English through regular practice and personalized feedback.
+    courses:
+      - title: Short Sentence Group
+        description: Practise daily words and short sentences from Monday to Friday. Ideal for building pronunciation foundations and speaking confidence.
+        guide_link: /guides/short-sentence-group/
+      - title: Long Sentence Group
+        description: Practise words, medium-length and longer sentences to improve connected speech, rhythm, stress, and fluency.
+        guide_link: /guides/long-sentence-group/
 
-  - title: English for Job Interviews
-    description: Practise common interview questions, organize your answers, and communicate your experience with confidence.
-    icon: "fa-solid fa-briefcase"
-    button_text: Learn More
-    button_link: "/contact/"
-
-  - title: Personalized English Coaching
-    description: One-to-one lessons tailored to your current level, learning goals, and real-life communication needs.
-    icon: "fa-solid fa-user"
-    button_text: Book a Trial Lesson
-    button_link: "/contact/"
+  - slug: conversation
+    title: English Conversation
+    subtitle: Open to All English Levels — Beginners to Advanced
+    description: You do not need to meet a specific English level to join. Lessons are adapted to your current ability, interests, and communication goals. Whether you are just starting out or already speak English comfortably, you can practise and make progress at your own pace.
+    courses:
+      - title: Business English
+        description: Build confidence in workplace communication, meetings, professional discussions, and presentations.
+        guide_link: /guides/business-english/
+      - title: Academic English
+        description: Practise expressing ideas, participating in discussions, and communicating confidently in academic settings.
+        guide_link: /guides/academic-english/
+      - title: Travel English
+        description: Prepare for real-life travel situations, including airports, hotels, restaurants, shopping, and everyday interactions.
+        guide_link: /guides/travel-english/
+      - title: Conversation & Fluency
+        description: Improve everyday communication, expand useful expressions, and develop more natural and confident conversations.
+        guide_link: /guides/conversation-fluency/
