@@ -11,7 +11,7 @@ layout: default
       <div class="col col-12">
 
         <!-- Academic Page Hero -->
-        <div class="academic-page-hero">
+<div class="academic-page-hero{% if page.url contains '/guides/' %} guide-page-hero{% endif %}">
 
           <div class="academic-page-hero__content">
 
@@ -33,7 +33,9 @@ layout: default
 
 
           <!-- Right icon -->
-          <div class="academic-page-hero__icon">
+{% unless page.url contains '/guides/' %}
+<div class="academic-page-hero__icon">
+
 
             {% case page.permalink %}
 
@@ -70,7 +72,9 @@ layout: default
             {% endcase %}
 
           </div>
-
+  
+  {% endunless %}
+  
         </div>
         <!-- end Academic Page Hero -->
 
