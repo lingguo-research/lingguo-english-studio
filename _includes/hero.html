@@ -1,3 +1,4 @@
+
 {% if site.data.settings.hero.enable == true %}
 <!-- begin hero -->
 <section class="hero hero--academic">
@@ -5,56 +6,65 @@
 
     <div class="hero__academic-inner">
 
-      <!-- Left -->
+      <!-- Left: Introduction -->
       <div class="hero__academic-content">
 
-        <div class="hero__eyebrow">PhD Researcher</div>
-
-        <h1 class="hero__academic-title">Ling Guo</h1>
-
-        <h2 class="hero__academic-subtitle">
-          Software Measurement &amp; Estimation
-        </h2>
-
-<div class="hero__academic-description">
-  PhD researcher in Software Engineering at École de technologie
-  supérieure (ÉTS), Montréal. My research focuses on
-  <strong>software measurement, software estimation, COSMIC functional
-  size measurement, and software engineering education</strong>.
-
-  <p>
-    In addition to my academic research, I provide
-    <a href="{{ '/services/' | relative_url }}">software consulting services</a>,
-    helping small businesses develop practical digital solutions.
-  </p>
-</div>
-
-        <div class="hero__academic-actions">
-       <a href="mailto:ling.guo.1@ens.etsmtl.ca" class="button button--primary">
-  Contact Me
-</a>
-
-          <a href="{{ '/cv/' | relative_url }}"
-             class="button">
-            View CV
-          </a>
+        <div class="hero__eyebrow">
+          PERSONALIZED ENGLISH COACHING
         </div>
 
-       <div class="hero__academic-links">
-  <a href="https://scholar.google.com/citations?user=PS_CX0AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-  <a href="https://orcid.org/0009-0009-2175-7102" target="_blank" rel="noopener">ORCID</a>
-  <a href="https://www.linkedin.com/in/ling-guo-3bb0ba62/" target="_blank" rel="noopener">LinkedIn</a>
-  <a href="mailto:ling.guo.1@ens.etsmtl.ca">Email</a>
-  <a href="https://www.zhihu.com/people/guoguo73777" target="_blank" rel="noopener">Zhihu</a>
-</div>
-       
-</div>
-      <!-- Right -->
+        <h1 class="hero__academic-title">
+          Ling Guo English Studio
+        </h1>
+
+        <h2 class="hero__academic-subtitle">
+          Speak English Naturally. Communicate with Confidence.
+        </h2>
+
+        <div class="hero__academic-description">
+          Personalized English coaching designed to help you speak
+          more clearly, communicate more confidently, and achieve
+          your language goals.
+
+          <p>
+            Whether you are improving your pronunciation, preparing
+            for PTE Core, or getting ready for a job interview,
+            I will help you build practical English skills through
+            structured practice and personalized feedback.
+          </p>
+        </div>
+
+        <!-- Main buttons -->
+        <div class="hero__academic-actions">
+
+          <a href="{{ '/contact/' | relative_url }}"
+             class="button button--primary">
+            Book a Trial Lesson
+          </a>
+
+          <a href="{{ '/services/' | relative_url }}"
+             class="button">
+            Explore Courses
+          </a>
+
+        </div>
+
+        <!-- Learning focus -->
+        <div class="hero__academic-links">
+          <span>Pronunciation</span>
+          <span>Speaking Fluency</span>
+          <span>PTE Core</span>
+          <span>Job Interviews</span>
+        </div>
+
+      </div>
+
+      <!-- Right: Teacher Photo -->
       {% if site.data.settings.hero.hero_avatar %}
       <div class="hero__academic-avatar">
-    <img
-  src="{{ site.data.settings.hero.hero_avatar | relative_url }}"
-  alt="Ling Guo">
+        <img
+          src="{{ site.data.settings.hero.hero_avatar | relative_url }}"
+          alt="Ling Guo - English Coach">
       </div>
       {% endif %}
 
