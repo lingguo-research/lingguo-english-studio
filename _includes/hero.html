@@ -1,16 +1,14 @@
 
 {% if site.data.settings.hero.enable == true %}
-<!-- begin hero -->
 <section class="hero hero--academic">
   <div class="container">
 
     <div class="hero__academic-inner">
 
-      <!-- Left: Introduction -->
       <div class="hero__academic-content">
 
         <div class="hero__eyebrow">
-          PERSONALIZED ENGLISH COACHING
+          ✦ PERSONALIZED ENGLISH COACHING
         </div>
 
         <h1 class="hero__academic-title">
@@ -18,48 +16,49 @@
         </h1>
 
         <h2 class="hero__academic-subtitle">
-          Speak English Naturally. Communicate with Confidence.
+          You don't have to be a native speaker to
+          <span>speak English naturally!</span>
         </h2>
 
+        <p class="hero__tagline">
+          Build confidence. Find your voice. Speak naturally.
+        </p>
+
         <div class="hero__academic-description">
-          Personalized English coaching designed to help you speak
-          more clearly, communicate more confidently, and achieve
-          your language goals.
+          <p>
+            Whether you want to improve your pronunciation,
+            prepare for PTE Core, or feel more confident speaking
+            English at work and in everyday life, let's make
+            your learning practical, personal, and enjoyable.
+          </p>
 
           <p>
-            Whether you are improving your pronunciation, preparing
-            for PTE Core, or getting ready for a job interview,
-            I will help you build practical English skills through
-            structured practice and personalized feedback.
+            Learn at your own pace. Practise with purpose.
+            Celebrate every improvement!
           </p>
         </div>
 
-        <!-- Main buttons -->
         <div class="hero__academic-actions">
-
-          <a href="{{ '/contact/' | relative_url }}"
+          <a href="{{ '/#contact' | relative_url }}"
              class="button button--primary">
             Book a Trial Lesson
           </a>
 
-          <a href="{{ '/services/' | relative_url }}"
-             class="button">
-            Explore Courses
+          <a href="{{ '/#classes' | relative_url }}"
+             class="button hero__explore-button">
+            Explore Classes →
           </a>
-
         </div>
 
-        <!-- Learning focus -->
         <div class="hero__academic-links">
           <span>Pronunciation</span>
           <span>Speaking Fluency</span>
           <span>PTE Core</span>
-          <span>Job Interviews</span>
+          <span>Conversation</span>
         </div>
 
       </div>
 
-      <!-- Right: Teacher Photo -->
       {% if site.data.settings.hero.hero_avatar %}
       <div class="hero__academic-avatar">
         <img
@@ -69,8 +68,6 @@
       {% endif %}
 
     </div>
-
   </div>
 </section>
-<!-- end hero -->
 {% endif %}
