@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
-title: Ling Guo
-description: PhD researcher in Software Engineering at École de technologie supérieure (ÉTS), Montréal, focusing on software measurement, software estimation, COSMIC functional size measurement, and software engineering education.
+title: Ling Guo English Studio
+description: Personalized English coaching for pronunciation, speaking fluency, PTE Core preparation, and professional communication.
 
 logo: '/images/logo.svg'
 logo_dark: '/images/logo-dark.svg'
@@ -14,30 +14,24 @@ menu_settings:
   menu_items:
     - title: 'Home'
       url: '/'
-    - title: 'Research'
-      url: '/research/'
-    - title: 'Publications'
-      url: '/publications/'
-    - title: 'Teaching'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Courses'
+      url: '/services/'
+    - title: 'Teaching Method'
       url: '/teaching/'
-    - title: 'Talks'
-      url: '/talks/'
-    - title: 'Experience'
-      url: '/experience/'
-    - title: 'Scholarships'
-      url: '/scholarships/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Services'
-      url: '/services/'  
-    - title: 'CV'
-      url: '/cv/'
+    - title: 'FAQ'
+      url: '/faq/'
+    - title: 'Contact'
+      url: '/contact/'
 
 # Call to action button
 cta_button:
   enable: true
-  cta_button_link: 'mailto:ling.guo.1@ens.etsmtl.ca'
-  cta_button_text: Contact
+  cta_button_link: '/contact/'
+  cta_button_text: Book a Trial Lesson
 
 
 # Home Cover Image
