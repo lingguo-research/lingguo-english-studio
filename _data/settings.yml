@@ -50,11 +50,8 @@ hero:
   hero_description: Personalized English coaching for pronunciation, speaking fluency, PTE Core preparation, and professional communication.
 #-------------------------------
 # Social Settings
-social:
-- {icon: "fa-brands fa-x-twitter", name: "LinkedIn", link: "https://linkedin.com"}
-- {icon: "fa-brands fa-facebook", name: "Facebook", link: "https://facebook.com"}
-- {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
-- {icon: "fa-solid fa-rss", name: "Rss", link: "/feed.xml"}
+social: []
+
 
 # Example of adding a new link to the hero and footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
 # Other icons can be found at https://fontawesome.com/icons
@@ -77,7 +74,7 @@ blog:
 #-------------------------------
 # Newsletter Settings
 mailchimp:
-  enable: true
+  enable: false
   mailchimp_image: '/images/20.jpg'
   mailchimp_title: Stay Inspired Weekly
   mailchimp_description: Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox.
@@ -99,7 +96,7 @@ contact:
 #-------------------------------
 # Comment Section (Disqus)
 disqus:
-  enable: true
+  enable: false
   disqus_identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
   disqus_title: What are your thoughts?
   disqus_button_text: Show Comments
