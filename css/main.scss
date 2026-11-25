@@ -2452,3 +2452,46 @@ a {
   }
 }
 
+
+/* English Studio - Larger Hero Portrait */
+
+.hero--academic .hero__academic-inner {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.25fr) minmax(360px, 0.85fr) !important;
+  align-items: center !important;
+  gap: 55px !important;
+}
+
+.hero--academic .hero__academic-avatar {
+  width: 100% !important;
+  max-width: 480px !important;
+  margin: 0 auto !important;
+}
+
+.hero--academic .hero__academic-avatar img {
+  display: block !important;
+  width: 100% !important;
+  height: 560px !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  object-position: center 25% !important;
+  border-radius: 22px !important;
+}
+
+@media (max-width: 768px) {
+  .hero--academic .hero__academic-inner {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+
+  .hero--academic .hero__academic-avatar {
+    max-width: 100% !important;
+  }
+
+  .hero--academic .hero__academic-avatar img {
+    height: auto !important;
+    max-height: 520px !important;
+  }
+}
+
+
