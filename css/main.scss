@@ -3690,3 +3690,113 @@ section.section {
   color: #626779;
 }
 
+/* ===== Blog Featured and Archive Layout ===== */
+
+.blog-grid--featured {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.blog-card__meta {
+  margin-top: auto;
+  padding-top: 16px;
+  color: #77798B;
+  font-size: 13px;
+}
+
+.blog-card__read {
+  display: block;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #E8E5E1;
+  color: #D97865 !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.blog-all-link,
+.blog-back-link {
+  text-align: center;
+  margin-top: 38px;
+}
+
+.blog-all-button {
+  display: inline-block;
+  padding: 13px 30px;
+  border-radius: 35px;
+  background: #25345B;
+  color: #FFFFFF !important;
+  font-family: Georgia, serif;
+  font-size: 17px;
+  text-decoration: none !important;
+}
+
+.blog-archive-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.blog-archive-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  padding: 22px 18px;
+  border: 1px solid #E8E5E1;
+  border-radius: 16px;
+  background: #FFFFFF;
+}
+
+.blog-archive-card > span {
+  color: #D97865;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.blog-archive-card h3 {
+  margin: 13px 0;
+  color: #25345B;
+  font-family: Georgia, serif;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.blog-archive-card p {
+  color: #626779;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.blog-archive-card a {
+  margin-top: auto;
+  padding-top: 12px;
+  color: #D97865 !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+@media (max-width: 1000px) {
+  .blog-grid--featured {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog-archive-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .blog-grid--featured,
+  .blog-archive-grid {
+    grid-template-columns: 1fr;
+  }
+}
