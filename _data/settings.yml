@@ -60,8 +60,8 @@ social: []
 #-------------------------------
 # Projects Section Settings
 projects:
-  enable: true
-  projects_title: Selected Research Projects
+  enable: false
+  projects_title: English Learning Resources
 
 
 #-------------------------------
