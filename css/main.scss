@@ -3481,3 +3481,44 @@ section.section {
 .footer {
   background: #25345B !important;
 }
+
+/* ===== Elegant Section Headings ===== */
+
+/* Section titles on the left */
+.section__head .section__title {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(30px, 3vw, 38px) !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.8px !important;
+  color: #25345B !important;
+  margin-bottom: 12px !important;
+}
+
+/* Section descriptions on the right */
+.section__head > p {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  font-style: italic !important;
+  line-height: 1.65 !important;
+  letter-spacing: 0.1px !important;
+  color: #73758A !important;
+  max-width: 540px;
+}
+
+/* Keep the two sides visually balanced */
+.section__head {
+  align-items: center !important;
+  margin-bottom: 42px !important;
+}
+
+@media (max-width: 767px) {
+  .section__head .section__title {
+    font-size: 30px !important;
+  }
+
+  .section__head > p {
+    font-size: 16px !important;
+  }
+}
