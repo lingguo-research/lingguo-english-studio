@@ -3800,3 +3800,34 @@ section.section {
     grid-template-columns: 1fr;
   }
 }
+
+/* Explore Classes - keep coral style in every state */
+
+.hero__academic-actions .hero__explore-button,
+.hero__academic-actions .hero__explore-button:visited,
+.hero__academic-actions .hero__explore-button:hover,
+.hero__academic-actions .hero__explore-button:focus,
+.hero__academic-actions .hero__explore-button:active {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #E98270 !important;
+  -webkit-text-fill-color: #E98270 !important;
+  border: 2px solid #E98270 !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  text-decoration: none !important;
+}
+
+.hero__academic-actions .hero__explore-button:hover {
+  background: #FCE8E1 !important;
+  background-color: #FCE8E1 !important;
+  color: #D97865 !important;
+  -webkit-text-fill-color: #D97865 !important;
+}
+
+.hero__academic-actions .hero__explore-button:active {
+  background: #FCE8E1 !important;
+  color: #D97865 !important;
+  transform: translateY(0) !important;
+}
+
