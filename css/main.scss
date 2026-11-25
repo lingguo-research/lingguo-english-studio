@@ -3630,4 +3630,52 @@ section.section {
   color: #626779 !important;
 }
 
+/* ===== Course Action Buttons ===== */
+
+.course-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.course-button {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 19px !important;
+  border-radius: 30px !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: all .2s ease;
+}
+
+/* Primary: Book a Class */
+.course-button--primary {
+  background: #25345B !important;
+  color: #FFFFFF !important;
+  border: 1px solid #25345B !important;
+}
+
+.course-button--primary:hover {
+  background: #3B4D79 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+}
+
+/* Secondary: Read Guide */
+.course-button--secondary {
+  background: #FFFCF8 !important;
+  color: #25345B !important;
+  border: 1.5px solid #E98270 !important;
+}
+
+.course-button--secondary:hover {
+  background: #FCE8E1 !important;
+  color: #25345B !important;
+  transform: translateY(-2px);
+}
+
 
