@@ -3355,3 +3355,44 @@ section.section {
   }
 }
 
+/* ===== Elegant Script Brand Name ===== */
+
+/* Hide broken logo images */
+.header img,
+.header picture {
+  display: none !important;
+}
+
+/* Handwritten wordmark */
+.header .logo {
+  display: flex !important;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header .logo__text {
+  font-family:
+    "Snell Roundhand",
+    "Apple Chancery",
+    "Segoe Script",
+    "Brush Script MT",
+    cursive !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  color: #25345B !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+
+.header .logo__text span {
+  color: #E98270 !important;
+  font-style: normal !important;
+}
+
+@media (max-width: 767px) {
+  .header .logo__text {
+    font-size: 23px !important;
+  }
+}
+
