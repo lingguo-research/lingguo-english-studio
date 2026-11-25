@@ -83,8 +83,8 @@
 
         {% if site.data.settings.cta_button.enable == true %}
 
-        <a href="{{ site.data.settings.cta_button.cta_button_link }}"
-           class="button cta-button">
+<a href="{{ site.data.settings.cta_button.cta_button_link | relative_url }}"
+   class="button cta-button">
           {{ site.data.settings.cta_button.cta_button_text }}
         </a>
 
