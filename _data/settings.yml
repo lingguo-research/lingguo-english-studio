@@ -67,8 +67,8 @@ projects:
 #-------------------------------
 # Section Blog Settings
 blog:
-  enable: true
-  blog_title: Writings
+  enable: false
+  blog_title: English Learning Blog
 
 
 #-------------------------------
