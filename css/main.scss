@@ -3917,3 +3917,107 @@ section.section {
   }
 }
 
+/* ===== My Journey - Editorial Reading Style ===== */
+
+/* Article reading width */
+.post__content {
+  max-width: 850px !important;
+  margin: 0 auto !important;
+  font-family: "Aptos", "Segoe UI", Arial, sans-serif !important;
+  font-size: 17px !important;
+  line-height: 1.9 !important;
+  color: #50576B !important;
+}
+
+/* Main article title */
+.post__content > h1:first-child {
+  font-family: "Aptos", "Segoe UI", Arial, sans-serif !important;
+  font-size: clamp(30px, 3.5vw, 39px) !important;
+  font-weight: 650 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -1px !important;
+  color: #25345B !important;
+  margin-bottom: 22px !important;
+}
+
+/* Section headings */
+.post__content h2 {
+  font-family: "Aptos", "Segoe UI", Arial, sans-serif !important;
+  font-size: 27px !important;
+  font-weight: 650 !important;
+  line-height: 1.4 !important;
+  letter-spacing: -0.5px !important;
+  color: #25345B !important;
+  margin-top: 48px !important;
+  margin-bottom: 18px !important;
+}
+
+/* Smaller headings */
+.post__content h3 {
+  font-size: 21px !important;
+  font-weight: 600 !important;
+  color: #25345B !important;
+  margin-top: 30px !important;
+}
+
+/* Paragraphs */
+.post__content p {
+  font-size: 17px !important;
+  line-height: 1.9 !important;
+  color: #50576B !important;
+  margin-bottom: 23px !important;
+}
+
+/* Opening italic sentence */
+.post__content > p:first-of-type {
+  color: #D97865 !important;
+  font-size: 18px !important;
+  font-style: italic !important;
+}
+
+/* Lists */
+.post__content li {
+  font-size: 16px !important;
+  line-height: 1.85 !important;
+  margin-bottom: 10px !important;
+  color: #50576B !important;
+}
+
+/* Bold text */
+.post__content strong {
+  color: #25345B !important;
+  font-weight: 650 !important;
+}
+
+/* Article header */
+.page-hero__title {
+  font-family: "Aptos", "Segoe UI", Arial, sans-serif !important;
+  font-size: clamp(30px, 3.5vw, 38px) !important;
+  font-weight: 650 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.8px !important;
+  color: #25345B !important;
+}
+
+.page-hero__description {
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+  color: #626779 !important;
+}
+
+@media (max-width: 767px) {
+  .post__content {
+    font-size: 16px !important;
+    padding: 0 8px;
+  }
+
+  .post__content h2 {
+    font-size: 24px !important;
+    margin-top: 36px !important;
+  }
+
+  .post__content p {
+    font-size: 16px !important;
+  }
+}
+
