@@ -83,6 +83,32 @@ I do not believe that learning English is about speaking perfectly from the begi
 
 I am still learning, researching, and growing myself. And I look forward to being part of your English learning journey, too.
 
+<div class="journey-links">
+
+  <h2>Explore More</h2>
+
+  <p>
+    You can learn more about my academic work
+    and professional experience through the links below.
+  </p>
+
+  <div class="journey-links__items">
+
+    <a href="https://lingguo.org/"
+       target="_blank" rel="noopener">
+      <i class="fa-solid fa-globe"></i>
+      Personal Academic Website
+    </a>
+
+    <a href="https://www.linkedin.com/in/ling-guo-3b0bba62/"
+       target="_blank" rel="noopener">
+      <i class="fa-brands fa-linkedin"></i>
+      LinkedIn
+    </a>
+
+  </div>
+</div>
+
 ---
 
 *Thanks for reading my story. If you would like to improve your English pronunciation, speaking fluency, or communication skills, feel free to explore my classes and get in touch.*
