@@ -25,11 +25,11 @@ Each 50-minute session focuses on your current needs. We practise relevant quest
 
 **Individual Coaching**
 
-- 50 minutes: CAD $30
+| Service | Duration | Price |
+|---|---:|---:|
+| Trial lesson | 20 minutes | CAD $10 |
+| Individual lesson | 50 minutes | CAD $30 |
 
-**Trial Lesson**
-
-- 25 minutes: CAD $10
 
 ### Who Is This For?
 
