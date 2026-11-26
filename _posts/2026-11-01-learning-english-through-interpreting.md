@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "What Simultaneous Interpreting Taught Me About Learning English"
