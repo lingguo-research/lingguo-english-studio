@@ -9,7 +9,7 @@ layout: default
     <div class="row">
    <div class="col col-12">
 
-     <div class="page-hero{% if page.url contains 'my-journey' %} journey-hero{% endif %}">
+    <div class="page-hero journey-hero">
 
           <div class="page-hero__inner">
             {% if page.tags.size >= 1 %}
@@ -67,7 +67,7 @@ layout: default
           {% endif %}
         </div>
 
-       <article class="post{% if page.url contains 'my-journey' %} journey-post{% endif %}">
+<article class="post journey-post">
           <div class="post__content">
             {% if page.toc == true %}
             <details class="post__toc">
