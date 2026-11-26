@@ -8,8 +8,6 @@ tags: [English Learning, English Pronunciation, Speaking Practice]
 description: "How I started my English sentence practice groups to help learners improve pronunciation through daily speaking practice, careful listening, and personalized feedback."
 ---
 
-# How My English Sentence Practice Groups Started
-
 ## It started with a simple idea
 
 I have always believed that improving spoken English requires more than memorising vocabulary or studying grammar. It requires regular practice, careful listening, and feedback.
