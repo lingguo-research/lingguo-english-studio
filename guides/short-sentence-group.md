@@ -25,13 +25,13 @@ Monday to Friday:
 - Clearer pronunciation.
 - Confidence when speaking short sentences.
 
-### Membership Options
+## Pricing
 
-| Membership | Price |
-|---|---:|
-| 1 Month | CAD $19.90 |
-| 6 Months | CAD $99 |
-| 12 Months | CAD $179 |
+| Package | Duration | Price |
+|---|---|---:|
+| Monthly membership | 1 month | CAD $19.90 |
+| Standard package | 6 month | CAD $99 |
+| Extended package | 12 month | CAD $179 |
 
 ### Who Is This For?
 
