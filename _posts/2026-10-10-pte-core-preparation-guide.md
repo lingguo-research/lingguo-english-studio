@@ -15,8 +15,6 @@ description: "A practical guide to preparing for PTE Core, including strategies 
 
 *English Learning · Exam Preparation*
 
-# Preparing for PTE Core: A Practical Guide to Reaching Your Target Score
-
 For many people planning to immigrate to Canada, demonstrating English proficiency is an important step in the process. Among the accepted language tests, PTE Core is an option worth considering.
 
 However, preparing for PTE Core is not simply about improving your general English. It is also about understanding the test format, learning how each task is assessed, and developing a preparation strategy that matches your target score.
