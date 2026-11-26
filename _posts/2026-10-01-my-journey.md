@@ -84,7 +84,6 @@ I do not believe that learning English is about speaking perfectly from the begi
 I am still learning, researching, and growing myself. And I look forward to being part of your English learning journey, too.
 
 <div class="journey-links">
-
   <h2>Explore More</h2>
 
   <p>
