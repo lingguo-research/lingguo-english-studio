@@ -2,6 +2,7 @@
 layout: post
 title: "How My English Sentence Practice Groups Started"
 date: 2026-10-20
+permalink: /posts/how-my-english-sentence-practice-groups-started/
 categories: [Journal]
 tags: [English Learning, English Pronunciation, Speaking Practice]
 ---
