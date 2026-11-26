@@ -5,6 +5,7 @@ date: 2026-10-20
 permalink: /posts/how-my-english-sentence-practice-groups-started/
 categories: [Journal]
 tags: [English Learning, English Pronunciation, Speaking Practice]
+description: "How I started my English sentence practice groups to help learners improve pronunciation through daily speaking practice, careful listening, and personalized feedback."
 ---
 
 # How My English Sentence Practice Groups Started
