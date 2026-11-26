@@ -1,131 +1,137 @@
+
 ---
 layout: default
 ---
-{% if page.url contains '/guides/' %}
-  <div class="guide-page-hero">
-    <div class="guide-page-hero__inner">
-      {% if page.eyebrow %}
-        <p class="guide-page-hero__eyebrow">{{ page.eyebrow }}</p>
-      {% endif %}
-      <h1>{{ page.title }}</h1>
-      {% if page.description %}
-        <p class="guide-page-hero__description">{{ page.description }}</p>
-      {% endif %}
-    </div>
-  </div>
-{% else %}
-  <!-- 保留原来的页面标题区域 -->
-{% endif %}
 
 <!-- begin page -->
 <div class="container">
   <div class="section__inner">
 
     <div class="row">
-
       <div class="col col-12">
 
-        <!-- Academic Page Hero -->
-<div class="academic-page-hero{% if page.url contains '/guides/' %} guide-page-hero{% endif %}">
+        <!-- Guide Page Hero -->
+        {% if page.url contains '/guides/' %}
 
-          <div class="academic-page-hero__content">
+          <div class="guide-page-hero">
+            <div class="guide-page-hero__inner">
 
-            {% if page.title %}
-            <h1 class="academic-page-hero__title">
-              {{ page.title }}
-            </h1>
-            {% endif %}
+              {% if page.eyebrow %}
+                <p class="guide-page-hero__eyebrow">
+                  {{ page.eyebrow }}
+                </p>
+              {% endif %}
 
-            {% if page.description %}
-            <p class="academic-page-hero__description">
-              {{ page.description }}
-            </p>
-            {% endif %}
+              <h1>{{ page.title }}</h1>
 
-            <div class="academic-page-hero__line"></div>
+              {% if page.description %}
+                <p class="guide-page-hero__description">
+                  {{ page.description }}
+                </p>
+              {% endif %}
+
+            </div>
+          </div>
+
+        {% else %}
+
+          <!-- Academic Page Hero -->
+          <div class="academic-page-hero">
+
+            <div class="academic-page-hero__content">
+
+              {% if page.title %}
+                <h1 class="academic-page-hero__title">
+                  {{ page.title }}
+                </h1>
+              {% endif %}
+
+              {% if page.description %}
+                <p class="academic-page-hero__description">
+                  {{ page.description }}
+                </p>
+              {% endif %}
+
+              <div class="academic-page-hero__line"></div>
+
+            </div>
+
+            <!-- Right icon -->
+            <div class="academic-page-hero__icon">
+
+              {% case page.permalink %}
+
+                {% when '/research/' %}
+                  <i class="fa-solid fa-diagram-project"></i>
+
+                {% when '/publications/' %}
+                  <i class="fa-regular fa-file-lines"></i>
+
+                {% when '/teaching/' %}
+                  <i class="fa-solid fa-graduation-cap"></i>
+
+                {% when '/talks/' %}
+                  <i class="fa-solid fa-microphone"></i>
+
+                {% when '/experience/' %}
+                  <i class="fa-solid fa-briefcase"></i>
+
+                {% when '/scholarships/' %}
+                  <i class="fa-solid fa-award"></i>
+
+                {% when '/cv/' %}
+                  <i class="fa-regular fa-id-card"></i>
+
+                {% when '/blog/' %}
+                  <i class="fa-solid fa-pen"></i>
+
+                {% when '/services/' %}
+                  <i class="fa-solid fa-briefcase"></i>
+
+                {% else %}
+                  <i class="fa-regular fa-file"></i>
+
+              {% endcase %}
+
+            </div>
 
           </div>
 
-
-          <!-- Right icon -->
-{% unless page.url contains '/guides/' %}
-<div class="academic-page-hero__icon">
+        {% endif %}
+        <!-- end Page Hero -->
 
 
-            {% case page.permalink %}
-
-              {% when '/research/' %}
-                <i class="fa-solid fa-diagram-project"></i>
-
-              {% when '/publications/' %}
-                <i class="fa-regular fa-file-lines"></i>
-
-              {% when '/teaching/' %}
-                <i class="fa-solid fa-graduation-cap"></i>
-
-              {% when '/talks/' %}
-                <i class="fa-solid fa-microphone"></i>
-
-              {% when '/experience/' %}
-                <i class="fa-solid fa-briefcase"></i>
-
-              {% when '/scholarships/' %}
-                <i class="fa-solid fa-award"></i>
-
-              {% when '/cv/' %}
-                <i class="fa-regular fa-id-card"></i>
-
-              {% when '/blog/' %}
-                <i class="fa-solid fa-pen"></i>
-            
-            {% when '/services/' %}
-              <i class="fa-solid fa-briefcase"></i>
-
-              {% else %}
-                <i class="fa-regular fa-file"></i>
-
-            {% endcase %}
-
-          </div>
-  
-  {% endunless %}
-  
-        </div>
-        <!-- end Academic Page Hero -->
-
-
+        <!-- Page Head: Video / Image -->
         <div class="page-head">
 
           {% if page.video_embed %}
 
-          <div class="page-video">
-            <div class="page-video__wrap">
+            <div class="page-video">
+              <div class="page-video__wrap">
 
-              <iframe
-                src="{{ page.video_embed }}"
-                loading="lazy"
-                width="640"
-                height="360"
-                frameborder="0"
-                webkitallowfullscreen
-                mozallowfullscreen
-                allowfullscreen>
-              </iframe>
+                <iframe
+                  src="{{ page.video_embed }}"
+                  loading="lazy"
+                  width="640"
+                  height="360"
+                  frameborder="0"
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  allowfullscreen>
+                </iframe>
 
+              </div>
             </div>
-          </div>
 
           {% else %}
 
             {% if page.image %}
 
-            <div class="page-image">
-
-              <img
-                src="{{ page.image | relative_url }}"
-                alt="{{ page.title }}">
-
-            </div>
+              <div class="page-image">
+                <img
+                  src="{{ page.image | relative_url }}"
+                  alt="{{ page.title }}">
+              </div>
 
             {% endif %}
 
@@ -134,24 +140,25 @@ layout: default
         </div>
 
 
-<article class="page{% if page.url contains '/guides/' %} guide-page{% endif %}">
+        <!-- Page Content -->
+        <article class="page{% if page.url contains '/guides/' %} guide-page{% endif %}">
 
           <div class="page__content">
 
             {% if page.toc == true %}
 
-            <details class="page__toc">
+              <details class="page__toc">
 
-              <summary>Table of Contents</summary>
+                <summary>Table of Contents</summary>
 
-              {% include toc.html
-                html=content
-                ordered=true
-                class="page__toc__list"
-                h_min=2
-              %}
+                {% include toc.html
+                  html=content
+                  ordered=true
+                  class="page__toc__list"
+                  h_min=2
+                %}
 
-            </details>
+              </details>
 
             {% endif %}
 
@@ -162,7 +169,6 @@ layout: default
         </article>
 
       </div>
-
     </div>
 
   </div>
