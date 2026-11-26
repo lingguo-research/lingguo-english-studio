@@ -2,6 +2,7 @@
 layout: post
 title: "What Simultaneous Interpreting Taught Me About Learning English"
 date: 2026-11-01
+permalink: /posts/learning-english-through-interpreting/
 categories:
   - journal
 tags:
