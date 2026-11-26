@@ -100,7 +100,7 @@ I am still learning, researching, and growing myself. And I look forward to bein
     </a>
     
 
-    <a href="https://www.linkedin.com/in/ling-guo-3b0bba62/"
+    <a href="https://www.linkedin.com/in/ling-guo-3bb0ba62/"
        target="_blank" rel="noopener">
       <i class="fa-brands fa-linkedin"></i>
       LinkedIn
