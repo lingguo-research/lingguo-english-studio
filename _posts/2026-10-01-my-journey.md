@@ -3,9 +3,9 @@ layout: post
 title: "My Journey: From Software Engineering to English Teaching"
 date: 2026-10-01
 permalink: /posts/my-journey/
+categories: [Journal]
 description: "My professional journey from software quality assurance and consulting to doctoral research in Montreal and English teaching."
 ---
-
 *Different experiences, one common thread: communication.*
 
 People sometimes ask me how I became an English teacher. My journey was not a straight line. Before teaching English, I spent years working in the software industry, supporting professional teams, improving business processes, and communicating across languages and cultures.
