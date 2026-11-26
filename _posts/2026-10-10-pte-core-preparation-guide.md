@@ -2,6 +2,7 @@
 layout: post
 title: "Preparing for PTE Core: A Practical Guide to Reaching Your Target Score"
 date: 2026-10-10
+permalink: /posts/pte-core-preparation-guide/
 categories:
   - journal
 tags:
