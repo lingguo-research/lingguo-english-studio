@@ -29,7 +29,7 @@ Monday to Friday:
 
 | Package | Duration | Price |
 |---|---|---:|
-| Monthly membership | 1 month | CAD $19.90 |
+| Monthly membership | 1 month | CAD $19 |
 | Standard package | 6 month | CAD $99 |
 | Extended package | 12 month | CAD $179 |
 
