@@ -1,88 +1,59 @@
+
 ---
 layout: default
 title: Stories & Insights
+description: "Explore articles about English learning, pronunciation, speaking practice, PTE Core preparation, professional communication, and life experiences."
 ---
 
 <section class="section blog-archive">
   <div class="container">
 
-    <div class="section__head">
-      <h1 class="section__title">All Stories & Insights</h1>
-      <p>Explore all my articles about English learning, professional communication, and life experiences.</p>
+    <header class="blog-archive__header">
+      <span class="blog-archive__eyebrow">THE JOURNAL</span>
+      <h1>All Stories &amp; Insights</h1>
+      <p>Explore my articles about English learning, professional communication, and life experiences.</p>
+    </header>
+
+    <div class="blog-archive__intro">
+      <span>ALL ARTICLES</span>
+      <span>{{ site.posts | size }} ARTICLES</span>
     </div>
 
-    <div class="blog-archive-grid">
+    <div class="blog-archive__grid">
+      {% assign articles = site.posts | sort: "date" | reverse %}
+      {% for post in articles %}
+      <article class="blog-archive__card">
 
-      <article class="blog-archive-card">
-        <span>PERSONAL STORY</span>
-        <h3>My Journey: From Software Engineering to English Teaching</h3>
-        <p>My professional journey from software consulting to PhD research and English teaching.</p>
-        <a href="{{ '/posts/my-journey/' | relative_url }}">Read Article →</a>
+        <time class="blog-archive__date"
+              datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: "%B %d, %Y" }}
+        </time>
+
+        {% if post.categories.size > 0 %}
+        <span class="blog-archive__category">
+          {{ post.categories | first }}
+        </span>
+        {% endif %}
+
+        <h2 class="blog-archive__title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+
+        <p class="blog-archive__description">
+          {% if post.description %}
+            {{ post.description }}
+          {% else %}
+            {{ post.excerpt | strip_html | truncate: 180 }}
+          {% endif %}
+        </p>
+
+        <a class="blog-archive__read"
+           href="{{ post.url | relative_url }}">
+          Read Article <span>→</span>
+        </a>
+
       </article>
-
-      <article class="blog-archive-card">
-        <span>ENGLISH LEARNING</span>
-        <h3>5 Practical Tips to Improve Your English Pronunciation</h3>
-        <p>Practical ways to improve pronunciation and speak more naturally.</p>
-        <a href="{{ '/posts/pronunciation-tips/' | relative_url }}">Read Article →</a>
-      </article>
-
-      <article class="blog-archive-card">
-        <span>STUDY IN CANADA</span>
-        <h3>My First 1000 Days in Canada</h3>
-        <p>Studying, living, and adapting to life in Montreal.</p>
-        <a href="{{ '/posts/canada-1000-days/' | relative_url }}">Read Article →</a>
-      </article>
-
-      <article class="blog-archive-card">
-        <span>PTE PREPARATION</span>
-        <h3>PTE Core: My Study Plan and Key Takeaways</h3>
-        <p>Preparation strategies and lessons from PTE Core practice.</p>
-        <a href="{{ '/posts/pte-core-study/' | relative_url }}">Read Article →</a>
-      </article>
-
-      <article class="blog-archive-card">
-        <span>ENGLISH SPEAKING</span>
-        <h3>How to Practise English Speaking Every Day</h3>
-        <p>Build a consistent speaking habit through practical daily exercises.</p>
-        <a href="{{ '/posts/daily-speaking-practice/' | relative_url }}">Read Article →</a>
-      </article>
-
-      <article class="blog-archive-card">
-        <span>FRENCH & LIFE</span>
-        <h3>Learning French in Montreal</h3>
-        <p>My experience learning French and navigating a bilingual environment.</p>
-        <a href="{{ '/posts/learning-french-montreal/' | relative_url }}">Read Article →</a>
-      </article>
-
-      <article class="blog-archive-card">
-        <span>RESEARCH & PHD</span>
-        <h3>Studying for a PhD in Canada</h3>
-        <p>Research, academic life, and the experience of doctoral study.</p>
-        <a href="{{ '/posts/phd-in-canada/' | relative_url }}">Read Article →</a>
-      </article>
-
-      <article class="blog-archive-card">
-        <span>PARENTING</span>
-        <h3>Raising a Bilingual Child in Montreal</h3>
-        <p>Family life, language learning, and education in Montreal.</p>
-        <a href="{{ '/posts/bilingual-child-montreal/' | relative_url }}">Read Article →</a>
-      </article>
-
-      <article class="blog-archive-card">
-        <span>WORK & LIFE</span>
-        <h3>Managing Multiple Roles: PhD Student, Mom, and Teacher</h3>
-        <p>Balancing research, teaching, family, and personal goals.</p>
-        <a href="{{ '/posts/managing-multiple-roles/' | relative_url }}">Read Article →</a>
-      </article>
-
-      <article class="blog-archive-card">
-        <span>TRAVEL & CULTURE</span>
-        <h3>Travel, Culture, and New Perspectives</h3>
-        <p>Reflections on travel and discovering different cultures.</p>
-        <a href="{{ '/posts/travel-and-culture/' | relative_url }}">Read Article →</a>
-      </article>
-
+      {% endfor %}
     </div>
 
     <div class="blog-back-link">
