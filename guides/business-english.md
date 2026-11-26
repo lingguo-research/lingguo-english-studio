@@ -25,7 +25,7 @@ We can work with situations you actually encounter at work. You can bring your o
 
 | Service | Duration | Price |
 |---|---:|---:|
-| Trial lesson | 25 minutes | CAD $10 |
+| Trial lesson | 20 minutes | CAD $10 |
 | Individual lesson | 50 minutes | CAD $30 |
 
 All prices are in Canadian dollars (CAD).
