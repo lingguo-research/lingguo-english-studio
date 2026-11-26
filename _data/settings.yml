@@ -28,10 +28,6 @@ cta_button:
   cta_button_text: Book a Trial Lesson
 
 
-# Home Cover Image
-home_cover_image: /images/bg.png
-
-
 #-------------------------------
 # Author Settings
 author:
