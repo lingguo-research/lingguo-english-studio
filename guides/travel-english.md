@@ -22,10 +22,12 @@ Travelling becomes easier when you can communicate in everyday situations. Pract
 
 Lessons focus on realistic situations. You can practise conversations, ask questions, and learn useful expressions for your upcoming trip.
 
-### Pricing
+## Pricing
 
-- Trial Lesson: 25 minutes · CAD $10
-- Individual Lesson: 50 minutes · CAD $30
+| Service | Duration | Price |
+|---|---:|---:|
+| Trial lesson | 25 minutes | CAD $10 |
+| Individual lesson | 50 minutes | CAD $30 |
 
 ### Who Is This For?
 
