@@ -26,7 +26,7 @@ Lessons focus on realistic situations. You can practise conversations, ask quest
 
 | Service | Duration | Price |
 |---|---:|---:|
-| Trial lesson | 25 minutes | CAD $10 |
+| Trial lesson | 20 minutes | CAD $10 |
 | Individual lesson | 50 minutes | CAD $30 |
 
 ### Who Is This For?
