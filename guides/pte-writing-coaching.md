@@ -25,12 +25,8 @@ Lessons are adapted to your current writing ability and preparation goals. We re
 
 | Service | Duration | Price |
 |---|---:|---:|
-| Trial lesson | 25 minutes | CAD $10 |
+| Trial lesson | 20 minutes | CAD $10 |
 | Individual lesson | 50 minutes | CAD $30 |
-
-**Trial Lesson**
-
-- 25 minutes: CAD $10
 
 ### Who Is This For?
 
