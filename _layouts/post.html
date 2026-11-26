@@ -67,7 +67,7 @@ layout: default
           {% endif %}
         </div>
 
-        <article class="post">
+       <article class="post{% if page.url contains 'my-journey' %} journey-post{% endif %}">
           <div class="post__content">
             {% if page.toc == true %}
             <details class="post__toc">
