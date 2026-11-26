@@ -9,7 +9,7 @@ layout: default
     <div class="row">
    <div class="col col-12">
 
-        <div class="page-hero">
+     <div class="page-hero{% if page.url contains 'my-journey' %} journey-hero{% endif %}">
 
           <div class="page-hero__inner">
             {% if page.tags.size >= 1 %}
