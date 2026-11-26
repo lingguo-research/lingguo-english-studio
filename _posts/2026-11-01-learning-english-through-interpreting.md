@@ -14,8 +14,6 @@ description: "Practical lessons on listening, speaking, reading, writing, and tr
 
 *Originally written in 2020 · Revised November 1, 2026*
 
-# What Simultaneous Interpreting Taught Me About Learning English
-
 My full-time job was in consulting. As part of my work, I collaborated with international appraisers who conducted software process appraisals to evaluate clients' software development processes and identify areas for improvement. I was also responsible for interpreting during these appraisal sessions.
 
 The work often involved real-time, back-and-forth communication: the appraiser would speak, and I would interpret for the client; then the client would respond, and I would interpret their answer for the appraiser.
