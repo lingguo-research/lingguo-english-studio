@@ -21,11 +21,12 @@ Good writing requires more than correct grammar. You also need to understand the
 
 Lessons are adapted to your current writing ability and preparation goals. We review your writing, discuss areas for improvement, and practise strategies you can apply independently.
 
-### Pricing
+## Pricing
 
-**Individual Coaching**
-
-- 50 minutes: CAD $30
+| Service | Duration | Price |
+|---|---:|---:|
+| Trial lesson | 25 minutes | CAD $10 |
+| Individual lesson | 50 minutes | CAD $30 |
 
 **Trial Lesson**
 
