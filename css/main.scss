@@ -4937,3 +4937,48 @@ section.section {
 .hero-statement .statement-natural {
   color: #E98270 !important;
 }
+
+/* ==========================================
+   Course Card Delivery Labels
+   ========================================== */
+
+.course-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.course-card__delivery {
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #f5eee8;
+  color: #8b6658;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+}
+
+/* Coaching subgroups */
+
+.course-subgroup {
+  margin-top: 42px;
+}
+
+.course-subgroup__header {
+  margin-bottom: 20px;
+}
+
+.course-subgroup__header h4 {
+  margin-bottom: 8px;
+}
+
+.course-subgroup__header p {
+  max-width: 720px;
+  margin-bottom: 0;
+}
+
