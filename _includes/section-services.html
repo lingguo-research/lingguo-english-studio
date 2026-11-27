@@ -11,20 +11,39 @@
     {% for theme in site.data.services.themes %}
     <div class="course-theme course-theme--{{ theme.slug }}">
 
+      <!-- Main theme heading -->
       <div class="course-theme__header">
         <h3>{{ theme.title }}</h3>
 
         {% if theme.subtitle %}
-        <p class="course-theme__subtitle">{{ theme.subtitle }}</p>
+        <p class="course-theme__subtitle">
+          {{ theme.subtitle }}
+        </p>
         {% endif %}
 
+        {% if theme.description %}
         <p>{{ theme.description }}</p>
+        {% endif %}
       </div>
 
+
+      <!-- Standard course cards -->
+      {% if theme.courses %}
       <div class="course-grid">
+
         {% for course in theme.courses %}
         <article class="course-card">
-          <h4>{{ course.title }}</h4>
+
+          <div class="course-card__top">
+            <h4>{{ course.title }}</h4>
+
+            {% if course.delivery %}
+            <span class="course-card__delivery">
+              {{ course.delivery }}
+            </span>
+            {% endif %}
+          </div>
+
           <p>{{ course.description }}</p>
 
           <div class="course-card__actions">
@@ -33,14 +52,75 @@
               Book a Class
             </a>
 
+            {% if course.guide_link %}
             <a href="{{ course.guide_link | relative_url }}"
                class="course-button course-button--secondary">
               Read Guide
             </a>
+            {% endif %}
           </div>
+
         </article>
         {% endfor %}
+
       </div>
+      {% endif %}
+
+
+      <!-- Nested groups: Coaching -->
+      {% if theme.groups %}
+      {% for group in theme.groups %}
+
+      <div class="course-subgroup course-subgroup--{{ group.slug }}">
+
+        <div class="course-subgroup__header">
+          <h4>{{ group.title }}</h4>
+
+          {% if group.description %}
+          <p>{{ group.description }}</p>
+          {% endif %}
+        </div>
+
+        <div class="course-grid">
+
+          {% for course in group.courses %}
+          <article class="course-card">
+
+            <div class="course-card__top">
+              <h4>{{ course.title }}</h4>
+
+              {% if course.delivery %}
+              <span class="course-card__delivery">
+                {{ course.delivery }}
+              </span>
+              {% endif %}
+            </div>
+
+            <p>{{ course.description }}</p>
+
+            <div class="course-card__actions">
+              <a href="{{ '/#contact' | relative_url }}"
+                 class="course-button course-button--primary">
+                Book a Class
+              </a>
+
+              {% if course.guide_link %}
+              <a href="{{ course.guide_link | relative_url }}"
+                 class="course-button course-button--secondary">
+                Read Guide
+              </a>
+              {% endif %}
+            </div>
+
+          </article>
+          {% endfor %}
+
+        </div>
+
+      </div>
+
+      {% endfor %}
+      {% endif %}
 
     </div>
     {% endfor %}
