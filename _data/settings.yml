@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
-title: Ling Guo English Studio
-description: Personalized English coaching for pronunciation, speaking fluency, PTE Core preparation, and professional communication.
+title: LING STUDIO
+description: Personalized English and French learning, exam preparation, and ongoing coaching support.
 
 logo: ''
 logo_dark: ''
@@ -15,9 +15,11 @@ menu_settings:
   menu_items:
     - title: 'About'
       url: '/#about'
-    - title: 'Classes'
+    - title: 'Programs'
       url: '/#classes'
-    - title: 'Blog'
+    - title: 'Exam Coaching'
+      url: '/#exam-coaching'
+    - title: 'Journal'
       url: '/#blog'
     - title: 'Contact'
       url: '/#contact'
@@ -25,7 +27,7 @@ menu_settings:
 cta_button:
   enable: true
   cta_button_link: '/#contact'
-  cta_button_text: Book a Trial Lesson
+  cta_button_text: Book a trial class
 
 
 #-------------------------------
