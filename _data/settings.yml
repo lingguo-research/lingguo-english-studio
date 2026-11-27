@@ -17,8 +17,6 @@ menu_settings:
       url: '/#about'
     - title: 'Programs'
       url: '/#classes'
-    - title: 'Exam Coaching'
-      url: '/#exam-coaching'
     - title: 'Journal'
       url: '/#blog'
     - title: 'Contact'
