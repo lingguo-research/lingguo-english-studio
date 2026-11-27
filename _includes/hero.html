@@ -2,13 +2,12 @@
 {% if site.data.settings.hero.enable == true %}
 <section class="hero hero--academic">
   <div class="container">
-
     <div class="hero__academic-inner">
 
       <div class="hero__academic-content">
 
         <div class="hero__eyebrow">
-          ✦ LING STUDIO · LANGUAGE LEARNING & COACHING
+          ✦ LING STUDIO · ENGLISH LEARNING & COACHING
         </div>
 
         <h1 class="hero-statement">
@@ -24,10 +23,10 @@
 
         <div class="hero__academic-description">
           <p>
-            Whether you are learning English, practising French,
-            preparing for a language exam, or looking for structured
-            support to stay on track, let's build a learning approach
-            that works for you.
+            Whether you want to improve your English,
+            develop your speaking skills, prepare for a language exam,
+            or need structured support to reach your learning goals,
+            LING STUDIO is here to help you move forward.
           </p>
 
           <p>
@@ -37,30 +36,27 @@
         </div>
 
         <div class="hero__academic-actions">
-          <a href="{{ '/#classes' | relative_url }}"
-             class="button button--primary">
+          <a href="{{ '/#classes' | relative_url }}" class="button button--primary">
             Explore Programs
           </a>
 
-          <a href="{{ '/#about' | relative_url }}"
-             class="button hero__explore-button">
+          <a href="{{ '/#about' | relative_url }}" class="button hero__explore-button">
             Meet Ling →
           </a>
         </div>
 
         <div class="hero__academic-links">
-          <span>English</span>
-          <span>French</span>
-          <span>Language Coaching</span>
+          <span>English Learning</span>
+          <span>Exam Preparation</span>
+          <span>Personalized Coaching</span>
         </div>
 
       </div>
 
       {% if site.data.settings.hero.hero_avatar %}
       <div class="hero__academic-avatar">
-        <img
-          src="{{ site.data.settings.hero.hero_avatar | relative_url }}"
-          alt="Ling Guo - Language Coach">
+        <img src="{{ site.data.settings.hero.hero_avatar | relative_url }}"
+             alt="Ling Guo - Language Learning Coach">
       </div>
       {% endif %}
 
