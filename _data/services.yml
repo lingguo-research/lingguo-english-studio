@@ -1,39 +1,123 @@
 
-services_title: What You Can Learn
+services_title: Programs
 services_description: Explore English learning programs and personalized coaching designed around your goals.
 services_section_enable: true
 
 themes:
+  # ==========================================
+  # 01. ENGLISH LEARNING
+  # ==========================================
   - slug: english-learning
     title: English Learning
-    description: Build confidence and communicate more naturally through structured lessons, practical speaking activities, and regular pronunciation practice.
+    subtitle: Open to All English Levels — Beginners to Advanced
+    description: Whether you are just starting out or already speak English comfortably, our programs are adapted to your level, interests, and learning goals.
+
     courses:
       - title: English Pronunciation
-        description: Improve your pronunciation, rhythm, stress, and connected speech through guided practice and personalized feedback.
+        delivery: Group Program
+        description: Build clearer pronunciation, rhythm, stress, and connected speech through guided group practice and personalized feedback. Choose between the Short Sentence Group and Long Sentence Group.
         guide_link: /guides/short-sentence-group/
 
-      - title: English Speaking & Conversation
-        description: Develop speaking confidence and fluency through practical conversations adapted to your level, interests, and goals.
-        guide_link: /guides/conversation-fluency/
-
-      - title: Daily Pronunciation Practice Groups
-        description: Practise English regularly with short or longer sentences and receive feedback to improve clarity and fluency.
-        guide_link: /guides/short-sentence-group/
-
-      - title: Academic & Professional English
-        description: Strengthen your communication skills for academic settings, workplace conversations, meetings, and presentations.
+      - title: Business English
+        delivery: One-to-One
+        description: Build confidence in workplace communication, meetings, professional discussions, and presentations.
         guide_link: /guides/business-english/
 
+      - title: Academic English
+        delivery: One-to-One
+        description: Practise expressing ideas, participating in discussions, and communicating confidently in academic settings.
+        guide_link: /guides/academic-english/
+
+      - title: Travel English
+        delivery: One-to-One
+        description: Prepare for real-life travel situations, including airports, hotels, restaurants, shopping, and everyday interactions.
+        guide_link: /guides/travel-english/
+
+      - title: Daily English
+        delivery: One-to-One
+        description: Improve everyday communication, expand useful expressions, and develop more natural and confident conversations.
+        guide_link: /guides/conversation-fluency/
+
+
+  # ==========================================
+  # 02. COACHING
+  # ==========================================
   - slug: coaching
-    title: Personalized Coaching
-    description: Get structured guidance, individualized learning plans, regular feedback, and ongoing support to help you reach your learning goals.
-    courses:
-      - title: PTE Core Preparation
-        description: Prepare for PTE Core with targeted skill development, speaking and writing feedback, practice strategies, and personalized guidance.
-        guide_link: /guides/pte-weakness-assessment/
+    title: Coaching
+    description: Get structured preparation, personalized study plans, regular practice, and ongoing support to make consistent progress.
 
-      - title: TCF Canada Preparation
-        description: Get structured preparation support for TCF Canada, with learning plans, targeted practice, feedback, and progress monitoring.
+    groups:
 
-      - title: Personalized Learning Coaching
-        description: Stay on track with a personalized study plan, regular one-to-one sessions, progress reviews, and ongoing learning support.
+      # ----------------------------------------
+      # PTE CORE
+      # ----------------------------------------
+      - slug: pte-core
+        title: PTE Core Preparation
+        description: Targeted preparation and practice to help you build skills and improve your PTE Core performance.
+
+        courses:
+          - title: PTE Core Weakness Assessment
+            delivery: One-to-One
+            description: Identify your strengths and weaknesses across PTE Core skills and receive practical recommendations for your next steps.
+            guide_link: /guides/pte-weakness-assessment/
+
+          - title: PTE Core Speaking Coaching
+            delivery: One-to-One
+            description: Develop your speaking skills with focused practice, individual feedback, and targeted improvement strategies.
+            guide_link: /guides/pte-speaking-coaching/
+
+          - title: PTE Core Writing Coaching
+            delivery: One-to-One
+            description: Improve your writing through structured practice, feedback, and guidance on common writing challenges.
+            guide_link: /guides/pte-writing-coaching/
+
+          - title: Read Aloud Daily Practice Group
+            delivery: Group Program
+            description: Practise one selected Read Aloud sentence every weekday and receive voice feedback to improve pronunciation, fluency, and delivery.
+            guide_link: /guides/pte-read-aloud/
+
+          - title: PTE Core Speaking Mock Tests
+            delivery: One-to-One
+            description: Practise PTE Core speaking tasks in test-like conditions and receive feedback to improve your performance.
+
+
+      # ----------------------------------------
+      # TCF CANADA
+      # ----------------------------------------
+      - slug: tcf-canada
+        title: TCF Canada Preparation
+        description: Focused preparation for the TCF Canada exam, with particular support for spoken French.
+
+        courses:
+          - title: TCF Canada Speaking Practice
+            delivery: One-to-One
+            description: Practise speaking tasks with structured guidance and individual feedback.
+
+          - title: TCF Canada Conversation Practice
+            delivery: One-to-One
+            description: Build conversational fluency, develop responses, and gain confidence speaking French.
+
+          - title: TCF Canada Speaking Mock Tests
+            delivery: One-to-One
+            description: Simulate all three TCF Canada speaking tasks and receive feedback on your performance.
+
+
+      # ----------------------------------------
+      # PERSONAL COACHING
+      # ----------------------------------------
+      - slug: personal-coaching
+        title: Personal Coaching
+        description: Individualized planning, accountability, and learning companionship to help you stay consistent and make progress.
+
+        courses:
+          - title: PTE Core Study Plan & Accountability
+            delivery: One-to-One
+            description: Get a personalized PTE Core study plan, regular check-ins, progress tracking, and ongoing encouragement.
+
+          - title: TCF Canada Study Plan & Accountability
+            delivery: One-to-One
+            description: Follow a structured TCF Canada study plan with regular check-ins, progress reviews, and ongoing support.
+
+          - title: Personalized Learning Coaching
+            delivery: One-to-One
+            description: Receive individual learning guidance, stay accountable, and build consistent study habits with a learning companion.
