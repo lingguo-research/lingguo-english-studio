@@ -38,4 +38,4 @@ Lessons are adapted to your current writing ability and preparation goals. We re
 
 Share your target score and writing challenges so we can plan a focused session.
 
-<a class="button" href="{{ '/#contact' | relative_url }}">Book a Writing Lesson</a>
+<a class="button" href="{{ '/#contact' | relative_url }}">Book a Trial Lesson</a>
