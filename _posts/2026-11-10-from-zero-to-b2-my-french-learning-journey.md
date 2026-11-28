@@ -42,13 +42,6 @@ I took my first TCF Canada exam in late August 2026. It was the first formal ass
 
 ## My first TCF Canada result
 
-[Add your four actual scores and NCLC levels here.]
-
-- Listening:
-- Reading:
-- Speaking:
-- Writing:
-
 The result gave me a clear reference point. More importantly, it allowed me to see what I had achieved after starting from zero in January 2024.
 
 ## Every step counts
