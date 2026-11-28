@@ -13,10 +13,13 @@ This group provides a simple weekday practice routine to help you keep practisin
 
 ### How It Works
 
-- Monday to Friday: receive one selected Read Aloud practice sentence each day.
-- Record your voice and submit your practice.
-- Receive feedback on your pronunciation and delivery.
-- Build a consistent practice habit throughout the week.
+**Daily Practice (Monday to Friday)**
+
+- Receive one selected PTE Read Aloud practice sentence each day.
+- Listen to my model recording.
+- Imitate the sentence and submit your own voice recording.
+- Receive personalized voice feedback from me, with comments on pronunciation, fluency, stress, and delivery.
+- Apply the feedback to improve your next practice sentence.
 
 ### What You Can Improve
 
