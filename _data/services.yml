@@ -90,13 +90,15 @@ themes:
         description: Focused preparation for the TCF Canada exam, with particular support for spoken French.
 
         courses:
-          - title: TCF Canada Conversation Practice
+                 - title: TCF Canada Conversation Practice
             delivery: One-to-One
             description: Build conversational fluency, develop responses, and gain confidence speaking French.
+            guide_link: /guides/tcf-canada-conversation-practice/
 
           - title: TCF Canada Speaking Mock Tests
             delivery: One-to-One
             description: Simulate all three TCF Canada speaking tasks and receive feedback on your performance.
+            guide_link: /guides/tcf-canada-speaking-mock-tests/
 
 
       # ----------------------------------------
