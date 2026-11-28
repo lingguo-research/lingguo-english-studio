@@ -1,35 +1,34 @@
+
 ---
 layout: page
-title: Conversation & Fluency
-description: Practise real-life English conversations and develop more natural speaking fluency.
+title: Daily English
+description: Develop practical English skills for everyday communication and real-life situations.
 permalink: /guides/conversation-fluency/
 ---
 
-## Speak More Naturally and Confidently
+## Communicate More Naturally in Everyday Life
 
-The best way to improve your speaking is to use English. These lessons provide opportunities to practise real-life conversations, express your ideas, and become more comfortable speaking.
+Daily English lessons help you feel more confident using English in your everyday life. Instead of focusing only on grammar and vocabulary, we practise practical communication through realistic situations and conversations.
 
-### Open to All English Levels
-
-**Beginners to Advanced — Everyone Is Welcome!**
-
-You do not need to meet a specific English level to join.
-
-Whether you are just starting to learn English, can handle everyday conversations, or want to express more complex ideas, lessons are adapted to your current ability, interests, and goals.
+Whether you are a beginner or already comfortable speaking English, lessons are adapted to your current level, interests, and learning goals.
 
 ### What We Can Practise
 
-- Everyday conversations and common topics.
-- Expressing opinions and personal experiences.
-- Asking follow-up questions and keeping conversations going.
-- Learning natural expressions and useful vocabulary.
-- Improving speaking confidence, fluency, and clarity.
+- Everyday conversations and common expressions.
+- Introducing yourself and getting to know others.
+- Shopping, ordering food, and visiting cafés or restaurants.
+- Making appointments and asking for information.
+- Talking about daily routines, interests, and personal experiences.
+- Expressing opinions and asking follow-up questions.
+- Handling common situations in daily life.
 
-### A Flexible Learning Experience
+### Practical, Personalized Lessons
 
-You can practise topics that interest you, discuss everyday situations, or focus on communication challenges you encounter in real life.
+Lessons are based on situations that are relevant to your life.
 
-The goal is not simply to speak more, but to communicate more naturally and confidently.
+You can bring your own questions, practise conversations you find challenging, and learn useful expressions that you can apply immediately.
+
+The goal is to help you communicate more naturally, confidently, and independently in everyday situations.
 
 ## Pricing
 
@@ -42,8 +41,15 @@ All prices are in Canadian dollars (CAD).
 
 ### Who Is This For?
 
-Everyone who wants to improve their spoken English, regardless of their current level.
+- Beginners who want to build a foundation in spoken English.
+- Learners who understand English but struggle to express themselves.
+- People who want to improve everyday communication.
+- Anyone who wants to speak more naturally and confidently.
+
+No specific English level is required. Lessons are adapted to your current ability and goals.
 
 ### How to Book
+
+Tell me about your current English level and the situations in which you would like to communicate more confidently.
 
 <a class="button" href="{{ '/#contact' | relative_url }}">Book a Trial Lesson</a>
