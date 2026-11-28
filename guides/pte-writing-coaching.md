@@ -28,6 +28,8 @@ Lessons are adapted to your current writing ability and preparation goals. We re
 | Trial lesson | 20 minutes | CAD $10 |
 | Individual lesson | 50 minutes | CAD $30 |
 
+All prices are in Canadian dollars (CAD).
+
 ### Who Is This For?
 
 - Learners preparing for PTE Core.
