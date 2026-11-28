@@ -17,14 +17,12 @@ LING STUDIO offers two group practice options to help learners improve their pro
 
 Build a strong pronunciation foundation through focused practice with English words and short sentences.
 
-**Weekly Practice**
+**Daily Practice (Monday to Friday)**
 
-Monday to Friday:
-
-- Practise selected English words.
-- Listen to and imitate short sentences.
-- Record your voice and submit your practice.
-- Receive pronunciation feedback and guidance.
+- Receive selected English words and short sentences from me each day.
+- Listen to my model recording and imitate the words and sentences.
+- Record and submit your own voice practice.
+- Receive personalized voice feedback and pronunciation guidance from me.
 
 **What You Can Improve**
 
@@ -45,7 +43,7 @@ Move beyond individual words and short sentences. Develop more natural English t
 
 **Daily Practice (Monday to Friday)**
 
-- Receive selected English words and sentences from me each day.
+- Receive selected English words and intermediate or long sentences from me each day.
 - Listen to the model pronunciation and imitate the words and sentences.
 - Record and submit your own voice practice.
 - Receive personalized voice feedback and pronunciation guidance from me.
