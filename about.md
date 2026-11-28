@@ -64,7 +64,8 @@ I offer several learning options for different goals.
 
 ### Personalized Coaching
 
-I also offer individual learning support, including study planning, progress tracking, and personalized coaching for learners who need a more structured approach.
+I also provide personalized study planning and accountability support
+for learners preparing for PTE Core and TCF Canada.
 
 ## Who I Work With
 
