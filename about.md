@@ -42,13 +42,16 @@ Every learner starts from a different level and has different goals. I focus on 
 
 I offer several learning options for different goals.
 
+
 ### English Learning
 
 - **English Pronunciation** – Improve pronunciation, word stress, sentence rhythm, and speaking fluency through structured practice.
 - **Daily English** – Build confidence in everyday conversations and practical communication.
 - **Business English** – Develop communication skills for professional and workplace situations.
+- **English for Job Interviews** – Prepare for English job interviews with practical questions, structured answers, and personalized speaking feedback. Learn how to introduce yourself, describe your experience, highlight your strengths, and respond confidently to common interview questions.
 - **Academic English** – Strengthen English communication for academic and research contexts.
 - **Travel English** – Practise useful expressions and conversations for travelling.
+
 
 ### English Exam Preparation
 
