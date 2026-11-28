@@ -12,6 +12,7 @@ Develop your speaking skills through focused practice, individual feedback, and 
 ### What We Work On
 
 - Read Aloud: pronunciation, fluency, and natural delivery.
+- Repeat Sentence: listening accuracy, memory, pronunciation, and fluency.
 - Describe Image: organizing information and expressing key points.
 - Respond to a Situation: communicating clearly and appropriately.
 - Answer Short Question: listening comprehension and concise responses.
