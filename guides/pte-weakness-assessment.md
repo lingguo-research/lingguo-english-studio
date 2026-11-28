@@ -23,6 +23,8 @@ Preparing for PTE Core is more effective when you understand your current streng
 | 30 minutes | CAD $20 |
 | 50 minutes | CAD $30 |
 
+All prices are in Canadian dollars (CAD).
+
 ### Who Is This For?
 
 - Learners who are beginning their PTE Core preparation.
