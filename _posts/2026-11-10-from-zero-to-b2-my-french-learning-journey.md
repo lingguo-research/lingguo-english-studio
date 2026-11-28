@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Zero to B2: My French Learning Journey in Canada"
-date: 2026-11-10
+date: 2026-09-10
 categories:
   - Personal Story
 tags:
