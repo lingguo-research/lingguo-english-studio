@@ -43,14 +43,12 @@ Monday to Friday:
 
 Move beyond individual words and short sentences. Develop more natural English through medium-length and longer sentence practice.
 
-**Weekly Practice**
+**Daily Practice (Monday to Friday)**
 
-Monday to Friday:
-
-- Practise selected English words.
-- Imitate medium-length and longer sentences.
-- Record your voice and submit your practice.
-- Receive feedback on pronunciation and delivery.
+- Receive selected English words and sentences from me each day.
+- Listen to the model pronunciation and imitate the words and sentences.
+- Record and submit your own voice practice.
+- Receive personalized voice feedback and pronunciation guidance from me.
 
 **What You Can Improve**
 
