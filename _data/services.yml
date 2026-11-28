@@ -76,11 +76,6 @@ themes:
             description: Practise one selected Read Aloud sentence every weekday and receive voice feedback to improve pronunciation, fluency, and delivery.
             guide_link: /guides/pte-read-aloud/
 
-          - title: PTE Core Speaking Mock Tests
-            delivery: One-to-One
-            description: Practise PTE Core speaking tasks in test-like conditions and receive feedback to improve your performance.
-
-
       # ----------------------------------------
       # TCF CANADA
       # ----------------------------------------
@@ -89,10 +84,6 @@ themes:
         description: Focused preparation for the TCF Canada exam, with particular support for spoken French.
 
         courses:
-          - title: TCF Canada Speaking Practice
-            delivery: One-to-One
-            description: Practise speaking tasks with structured guidance and individual feedback.
-
           - title: TCF Canada Conversation Practice
             delivery: One-to-One
             description: Build conversational fluency, develop responses, and gain confidence speaking French.
