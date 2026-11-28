@@ -23,6 +23,12 @@ themes:
         description: Build confidence in workplace communication, meetings, professional discussions, and presentations.
         guide_link: /guides/business-english/
 
+        
+      - title: English for Job Interviews
+        delivery: One-to-One
+        description: Prepare for English job interviews through practical questions, structured answers, and personalized speaking feedback. Practise self-introductions, describing your work experience, highlighting your strengths, and answering common interview questions.
+  guide_link: /guides/english-job-interviews/
+
       - title: Academic English
         delivery: One-to-One
         description: Practise expressing ideas, participating in discussions, and communicating confidently in academic settings.
