@@ -47,7 +47,7 @@ Refine your study priorities as your skills develop and your exam date approache
 
 ### Pricing
 
-Contact me to discuss personalized coaching options.
+This service is offered on a monthly basis. Contact me to discuss your learning goals and monthly coaching options.
 
 ### How to Book
 
