@@ -38,11 +38,15 @@ Rather than memorizing scripts, you will learn how to organize your ideas and co
 
 Lessons are adapted to your target position, English level, and interview needs. You can bring your resume or a job posting so we can focus on realistic interview situations.
 
-### Pricing
+## Pricing
 
-Contact me to discuss your learning goals and lesson options.
+| Service | Duration | Price |
+|---|---:|---:|
+| Trial lesson | 20 minutes | CAD $10 |
+| Individual lesson | 50 minutes | CAD $30 |
+
+All prices are in Canadian dollars (CAD).
 
 ### How to Book
 
-<a class="button" href="{{ '/#contact' | relative_url }}">Book an Interview Practice Lesson</a>
-
+<a class="button" href="{{ '/#contact' | relative_url }}">Book a Trial Lesson</a>
