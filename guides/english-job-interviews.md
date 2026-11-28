@@ -22,7 +22,7 @@ These one-to-one lessons help you prepare practical answers, improve your spoken
 
 ### Personalized Interview Practice
 
-We can use your resume, target job description, and professional background to develop relevant interview questions and answers.
+You can bring your resume and a target job description to the lesson. We will use your actual work experience to develop relevant interview questions and practise clear, natural, and convincing answers. 
 
 Rather than memorizing scripts, you will learn how to organize your ideas and communicate your experience naturally.
 
