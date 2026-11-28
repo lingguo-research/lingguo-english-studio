@@ -90,7 +90,7 @@ themes:
         description: Focused preparation for the TCF Canada exam, with particular support for spoken French.
 
         courses:
-                 - title: TCF Canada Conversation Practice
+          - title: TCF Canada Conversation Practice
             delivery: One-to-One
             description: Build conversational fluency, develop responses, and gain confidence speaking French.
             guide_link: /guides/tcf-canada-conversation-practice/
@@ -112,11 +112,14 @@ themes:
           - title: PTE Core Study Plan & Accountability
             delivery: One-to-One
             description: Get a personalized PTE Core study plan, regular check-ins, progress tracking, and ongoing encouragement.
+            guide_link: /guides/pte-core-study-plan/
 
           - title: TCF Canada Study Plan & Accountability
             delivery: One-to-One
             description: Follow a structured TCF Canada study plan with regular check-ins, progress reviews, and ongoing support.
+            guide_link: /guides/tcf-canada-study-plan/
 
           - title: Personalized Learning Coaching
             delivery: One-to-One
             description: Receive individual learning guidance, stay accountable, and build consistent study habits with a learning companion.
+            guide_link: /guides/personalized-learning-coaching/
