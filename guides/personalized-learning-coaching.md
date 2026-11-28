@@ -11,33 +11,44 @@ Learning a language takes time, consistency, and a clear direction. If you are n
 
 This service provides individual guidance to help you make steady progress towards your learning goals.
 
-### What We Can Work On
+### What's Included?
 
-- Understand your current language level and learning needs.
-- Define realistic short-term and long-term goals.
-- Build a personalized learning plan.
-- Identify useful learning resources and practice methods.
-- Organize your weekly study routine.
-- Review progress and adjust learning priorities.
-- Stay accountable and maintain consistent practice.
+- **Personalized Learning Plan:** Assess your current level, learning needs, goals, and available time to develop a realistic and achievable study plan.
+- **Weekly One-to-One Online Sessions:** Meet online once a week to review your progress, discuss challenges, and receive personalized learning guidance.
+- **Speaking Practice and Role-Playing:** Practise real-life conversations through role-playing activities, including everyday situations, workplace communication, and other scenarios relevant to your goals.
+- **Questions and Problem-Solving:** Ask questions about your learning difficulties, clarify confusing points, and get practical advice on how to overcome challenges.
+- **Progress Tracking:** Review your completed tasks, monitor your progress, and identify areas that need more attention.
+- **Plan Review and Adjustment:** Regularly evaluate your progress and adjust your study plan, learning priorities, and practice methods when necessary.
 
-### Flexible and Personalized Support
+### How the Coaching Works
 
-Your learning plan is based on your own goals, schedule, and current level.
+**Step 1 – Understand Your Goals**
 
-Whether you are improving everyday English, preparing for a language examination, or developing your communication skills, we can focus on the areas that matter most to you.
+Discuss your current level, learning objectives, challenges, and available study time.
+
+**Step 2 – Build Your Personalized Plan**
+
+Develop a realistic study plan with clear priorities, weekly tasks, and achievable milestones.
+
+**Step 3 – Learn and Practise Every Week**
+
+Follow your study plan and meet online for one or two weekly one-to-one sessions. Review your learning progress, practise speaking through role-playing, and discuss any questions or difficulties.
+
+**Step 4 – Track, Review, and Adjust**
+
+Monitor your progress together, identify what is working and what needs improvement, and adjust your plan to keep your learning on track.
 
 ### Who Is This For?
 
-- Independent learners who need more structure.
+- Learners who want a clear and realistic study plan.
 - Adults balancing language learning with work and family responsibilities.
-- Learners who have difficulty maintaining a regular study routine.
-- People who want personalized guidance rather than a fixed course.
-- Learners who need support setting and achieving realistic goals.
+- Learners who struggle to stay consistent or motivated.
+- People who need regular guidance, feedback, and accountability.
+- Independent learners who want personalized support and a structured learning routine.
 
 ### Pricing
 
-Contact me to discuss personalized coaching options.
+This service is offered on a monthly basis. Contact me to discuss your learning goals and monthly coaching options.
 
 ### How to Book
 
