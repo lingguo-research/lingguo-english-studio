@@ -48,7 +48,7 @@ Evaluate your development and adjust your preparation strategy when necessary.
 
 ### Pricing
 
-Contact me to discuss personalized coaching options.
+This service is offered on a monthly basis. Contact me to discuss your learning goals and monthly coaching options.
 
 ### How to Book
 
