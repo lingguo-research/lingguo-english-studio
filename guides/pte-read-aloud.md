@@ -30,8 +30,8 @@ This group provides a simple weekday practice routine to help you keep practisin
 | Package | Duration | Price |
 |---|---|---:|
 | Monthly membership | 1 month | CAD $29 |
-| Standard package | 3 month | CAD $79 |
-| Extension package | 6 month | CAD $149 |
+| Standard package | 3 months | CAD $79 |
+| Extension package | 6 months | CAD $149 |
 
 All prices are in Canadian dollars (CAD).
 
