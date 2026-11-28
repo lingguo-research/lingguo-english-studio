@@ -29,6 +29,8 @@ Lessons focus on realistic situations. You can practise conversations, ask quest
 | Trial lesson | 20 minutes | CAD $10 |
 | Individual lesson | 50 minutes | CAD $30 |
 
+All prices are in Canadian dollars (CAD).
+
 ### Who Is This For?
 
 - People preparing for international travel.
