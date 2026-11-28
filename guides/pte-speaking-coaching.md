@@ -40,4 +40,4 @@ Learners preparing for PTE Core who want structured speaking practice and person
 
 Tell me your target score, exam timeline, and current speaking challenges.
 
-<a class="button" href="{{ '/#contact' | relative_url }}">Book a Speaking Lesson</a>
+<a class="button" href="{{ '/#contact' | relative_url }}">Book a Trial Lesson</a>
